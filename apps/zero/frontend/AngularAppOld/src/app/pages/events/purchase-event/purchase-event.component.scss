@@ -1,0 +1,84 @@
+@import "src/assets/styles/global.scss";
+
+
+:host {
+
+
+  &.PurchaseEventView{
+    *{
+      color:black
+    }
+    .PurchaseEvent{
+      &Main{
+        &Pod{
+          max-width: calc(612.744/16 * 1rem);
+          margin: auto;
+        }
+      }
+      &Pod{
+        @for $i from 1 through 2 {
+          &#{$i} {
+            padding:0 $spacing10;
+          }
+        }
+        &0{
+          display: flex;
+          flex-direction: row-reverse;
+
+          &Img {
+            &0 {
+              font-size: $fontSize4;
+            }
+          }
+        }
+        &1{
+          @include pageLayout1;
+          align-items: flex-start;
+          *{
+            margin:0 0 $spacing5 0;
+          }
+          &Img {
+            &0 {
+              width: 30%;
+              height: auto;
+              // max-height: $spacing12;
+            }
+          }
+          &Item {
+            &0 {
+              display: flex;
+              justify-content: space-between;
+              align-self: center;
+            }
+            &1{
+              flex: 0 0 50%
+            }
+            &2{
+              display: flex;
+              justify-content: space-between;
+              align-items: center;
+
+
+            }
+            &3{
+              display: flex;
+              flex-direction: column;
+              flex:0 0 30%;
+
+            }
+          }
+
+        }
+        &2{
+          @include pageLayout1;
+          button{
+            align-self: flex-end;
+            color:$bs-light
+          }
+        }
+
+      }
+    }
+  }
+
+}

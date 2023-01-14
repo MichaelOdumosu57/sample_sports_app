@@ -1,0 +1,52 @@
+<div [class]="classPrefix('MainPod')">
+  <img [class]="classPrefix('MainImg0')" [src]=backdropImg.src [alt]=backdropImg.alt />
+  <mat-card [class]="classPrefix('Pod0')">
+    <div [class]="classPrefix('Pod0Item0')"></div>
+    <div [class]="classPrefix('Pod0Item1')"></div>
+    <div [class]="classPrefix('Pod0Item2')">
+      <ul [class]="classPrefix('Pod0Item3')" [scrollBottomPagination]="scrollBottomPaginationParams">
+        <li [class]="classPrefix('Pod0Item4')" *ngFor="let event of eventList">
+          <mat-card [class]="classPrefix('Pod0Item5')">
+            <div [class]="classPrefix('Pod0Item6')">
+              <i [class]="classPrefix('Pod0Img0')" class="fa-solid fa-calendar"></i>
+              <p>{{ "eventsMain.events.name" | translate}}</p>
+              <div [class]="classPrefix('Pod0StrikeThru0')"></div>
+              <p [class]="classPrefix('Pod0Text0')">{{event.displayStartTime}}</p>
+            </div>
+            <div [class]="classPrefix('Pod0Item7')">
+              <div [class]="classPrefix('Pod0Item8')">
+                <img [class]="classPrefix('Pod0Img2')" [src]=event.imgSrc [alt]=event.imgAlt />
+                <h3 [class]="classPrefix('Pod0Text0')">{{event.title}}</h3>
+              </div>
+              <div [class]="classPrefix('Pod0Item9')">
+                <button (click)="event.eventbriteBtnClick($event)" [class]="classPrefix('Pod0Btn3')">
+                  <label>{{ "eventsMain.events.eventbritePurchase" | translate}}</label>
+                </button>
+                <button (click)="event.click(event)" [class]="classPrefix('Pod0Btn3')">
+                  <label>{{ "eventsMain.events.herePurchase" | translate}}</label>
+                </button>
+              </div>
+
+            </div>
+          </mat-card>
+        </li>
+      </ul>
+      <div [class]="classPrefix('Pod0Item10')">
+        <mat-card [class]="classPrefix('Pod0Item11')">
+          <h3>{{"eventsMain.wallet.title" | translate}}</h3>
+          <ul [class]="classPrefix('Pod0Item12')">
+            <li  [class]="classPrefix('Pod0Item13')" *ngFor="let wallet of wallets">
+              <button (click)="wallet.click($event)" [class]="classPrefix('Pod0Btn2')" >
+                <i [class]="classPrefix('Pod0Img1') +' fa-solid fa-wallet'"></i>
+                <label [class]="classPrefix('Pod0Text0')">{{wallet.text | translate}}</label>
+              </button>
+            </li>
+
+          </ul>
+        </mat-card>
+      </div>
+    </div>
+  </mat-card>
+</div>
+
+

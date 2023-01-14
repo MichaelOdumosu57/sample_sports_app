@@ -1,0 +1,10 @@
+<div [class]="classPrefix('MainPod')">
+  <img class="GlobalBackdropImg0" [src]=backdropImg.src [alt]=backdropImg.alt />
+  <mat-card [class]="classPrefix('Pod0')">
+    <h1>{{"collegiateSignupMain.title" | translate}}</h1>
+    <wml-form [params]="wmlForm"></wml-form>
+    <button (click)="submitBtn.click($event)" [class]="classPrefix('Pod0Btn0')">
+      <label>{{submitBtn.text| translate}}</label>
+    </button>
+  </mat-card>
+</div>

@@ -1,0 +1,73 @@
+{
+
+  "collegiateSignupMain":{
+    "backdropImgAlt":"School Sports Field",
+    "title":"University/Collegiate/High School Sponsorship Accelerator Request Form",
+    "fields":{
+      "email":{
+        "label":"Email"
+      },
+      "customerStatus":{
+        "label":"Are you a new or existing customer?",
+        "options":[
+          "I am a new customer",
+          "I am an existing customer"
+        ]
+      },
+      "profileName":{
+        "label":"Profile name",
+        "sublabels":[
+          "Please enter first and last name"
+        ]
+      },
+      "teamName":{
+        "label":"What's the name of the school or name of the team you are starting?"
+      },
+      "startupStage":{
+        "label":"What's the stage of your startup club team or org? (Explain in detail)",
+        "sublabels":[
+          "Choose size and number per color"
+        ]
+      },
+      "employeeCount":{
+        "label":"Numbers of employees?"
+      },
+      "atheleticPlayers":{
+        "label":"Number of team athletic players?",
+        "sublabels":[
+          "(Minimum Preferred amount 7 - 14)"
+        ]
+      },
+      "socialMediaHandles":{
+        "label":"Club Social Media Handles"
+      },
+      "fundingAmnt":{
+        "label":"Startup funding amount or sponsorship benefits?",
+        "options":[
+          "Endorsement",
+          "$5,000.00 - $10,000.00",
+          "$20,000.00",
+          "$50,000.00",
+          "$100,000.00 - $500,000.00",
+          "$1,000,000.00+",
+          "Don't Know Yet"
+        ]
+      },
+      "preferredContact":{
+        "label":"Preferred contact method",
+        "options":[
+          "Phone",
+          "Email",
+          "Linkedin.com"
+        ]
+      },
+      "teamLogo":{
+        "label":"Your team logo?"
+      },
+      "pitchDeck":{
+        "label":"University/College/High School Decks, Pitch links, or Presentation?"
+      }
+    },
+    "submit":"Submit"
+  }
+}

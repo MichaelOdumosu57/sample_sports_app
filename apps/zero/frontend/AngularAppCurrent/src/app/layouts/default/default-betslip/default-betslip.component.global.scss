@@ -1,0 +1,14 @@
+#root default-betslip{
+  mat-tab-group{
+
+  }
+  .mat-tab-label{
+    min-width: auto;
+    flex-flow:row wrap;
+    padding: 0 $spacing6;
+  }
+
+  .mat-ink-bar{
+    display: none;
+  }
+}

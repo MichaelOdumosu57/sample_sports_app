@@ -1,0 +1,113 @@
+/* To learn more about this file see: https://angular.io/config/tsconfig. */
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "baseUrl": "./",
+    "outDir": "./dist/out-tsc",
+    "forceConsistentCasingInFileNames": true,
+    "strict": false,
+    "noPropertyAccessFromIndexSignature": false,
+    "allowJs": true,
+    "noImplicitAny": false,
+    "noImplicitOverride": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "sourceMap": true,
+    "declaration": false,
+    "downlevelIteration": true,
+    "experimentalDecorators": true,
+    "moduleResolution": "node",
+    "importHelpers": true,
+    "target": "ES2022",
+    "module": "es2020",
+    "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "lib": [
+      "es2020",
+      "dom"
+    ],
+    "paths": {
+      "@core/*": [
+        "src/app/core/*"
+      ],
+      "@env/*": [
+        "src/environments/*"
+      ],
+      "@shared/*": [
+        "src/app/shared/*"
+      ],
+      "@helpers/*": [
+        "src/helpers/*"
+      ],
+      "@app/*": [
+        "src/app/*"
+      ],
+      "mobileNav": [
+        "dist/mobile-nav"
+      ],
+      "@windmillcode/wml-chips": [
+        "projects/wml-chips/src/public-api.ts"
+      ],
+      "niblsIsPresent": [
+        "dist/nibls-is-present"
+      ],
+      "wml-field": [
+        "dist/wml-field"
+      ],
+      "wml-form": [
+        "dist/wml-form"
+      ],
+      "wml-input": [
+        "dist/wml-input"
+      ],
+      "wml-popup": [
+        "dist/wml-popup"
+      ],
+      "@windmillcode/wml-field": [
+        "projects/wml-field/src/public-api.ts"
+      ],
+      "@windmillcode/wml-form": [
+        "projects/wml-form/src/public-api.ts"
+      ],
+      "@windmillcode/wml-input": [
+        "projects/wml-input/src/public-api.ts"
+      ],
+      "@windmillcode/wml-options": [
+        "projects/wml-options/src/public-api.ts"
+      ],
+      "@windmillcode/wml-dropdown": [
+        "projects/wml-dropdown/src/public-api.ts"
+      ],
+      "@windmillcode/wml-file-manager": [
+        "projects/wml-file-manager/src/public-api.ts"
+      ],
+      "wml-file-manager": [
+        "dist/wml-file-manager"
+      ],
+      "@windmillcode/wml-popup": [
+        "projects/wml-popup/src/public-api.ts"
+      ],
+      "@windmillcode/wml-tabs": [
+        "projects/wml-tabs/src/public-api.ts"
+      ],
+      "wml-options": [
+        "dist/wml-options"
+      ],
+      "@angular-calendar": [
+        "projects/angular-calendar/src/index.ts"
+      ]
+    },
+    "types": [
+      "jasmine"
+    ],
+    "useDefineForClassFields": false
+  },
+  "angularCompilerOptions": {
+    "enableI18nLegacyMessageIdFormat": false,
+    "strictInjectionParameters": true,
+    "strictInputAccessModifiers": true,
+    "strictTemplates": true
+  }
+}

@@ -1,0 +1,51 @@
+<div [class]="classPrefix('MainPod')">
+  <div [class]="classPrefix('Pod0')">
+    <div [class]="classPrefix('SharedItem0')">
+
+      <button
+      [mwlCalendarNextView]="btn.mwlCalendarViewParams"
+      [mwlCalendarToday]="btn.mwlCalendarViewParams"
+      [mwlCalendarPreviousView]="btn.mwlCalendarViewParams"
+      [view]="view"
+      [(viewDate)]="viewDate"
+      [class]="classPrefix('SharedBtn0')"
+      *ngFor="let btn of calendarNavBtns">
+        <label>
+          {{btn.value | translate }}
+        </label>
+      </button>
+
+    </div>
+    <div class="col-md-4">
+      <h3>{{ viewDate | calendarDate:(view + 'ViewTitle'):'en' }}</h3>
+    </div>
+    <div [class]="classPrefix('SharedItem0')">
+
+      <button (click)="btn.click($event)" *ngFor="let btn of calendarViewBtns" [class]="classPrefix('SharedBtn0')">
+        <label>
+          {{btn.value | translate}}
+      </label>
+      </button>
+
+
+    </div>
+  </div>
+
+
+  <div [ngSwitch]="view">
+    <mwl-calendar-month-view *ngSwitchCase="CalendarView.Month" [viewDate]="viewDate" [events]="events"
+      [refresh]="refresh" [activeDayIsOpen]="activeDayIsOpen" (dayClicked)="dayClicked($event.day)"
+      (eventClicked)="handleEvent('Clicked', $event.event)" (eventTimesChanged)="eventTimesChanged($event)">
+    </mwl-calendar-month-view>
+    <mwl-calendar-week-view *ngSwitchCase="CalendarView.Week" [viewDate]="viewDate" [events]="events"
+      [refresh]="refresh" (eventClicked)="handleEvent('Clicked', $event.event)"
+      (eventTimesChanged)="eventTimesChanged($event)">
+    </mwl-calendar-week-view>
+    <mwl-calendar-day-view *ngSwitchCase="CalendarView.Day" [viewDate]="viewDate" [events]="events" [refresh]="refresh"
+      (eventClicked)="handleEvent('Clicked', $event.event)" (eventTimesChanged)="eventTimesChanged($event)">
+    </mwl-calendar-day-view>
+  </div>
+
+
+
+</div>

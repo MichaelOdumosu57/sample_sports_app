@@ -1,0 +1,199 @@
+
+@import "src/assets/styles/global.scss";
+
+
+:host {
+
+@mixin NiblsballMainPod0Btn0{
+  background-color: $bs-tertiary !important;
+}
+
+  &.NiblsballMainView{
+    display: block;
+    width: 100%;
+    height: calc(1000/16 * 1rem);
+    .NiblsballMain{
+      &Main{
+        &Pod{
+          @include MainPodCssRule0;
+          width: 100%;
+          height: 100%;
+          padding:$spacing5;
+          // overflow: auto;
+        }
+        &Img {
+          &0 {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            inset: 0;
+          }
+        }
+      }
+      &Pod{
+
+        &0{
+          height: 100%;
+          background-color: transparent;
+          @include FlexCenterColumn;
+          padding:0;
+          &Btn {
+            &Hover {
+              &0 {
+                @include NiblsballMainPod0Btn0;
+              }
+            }
+            &0 {
+              flex: 0 0 $spacing9;
+              background-color: $bs-light;
+              border-radius: $spacing2;
+              border: calc(1/16 * 1rem) solid $bs-grey;
+              &:hover{
+                @include NiblsballMainPod0Btn0;
+              }
+            }
+            &1{
+              @include GlobalButton0;
+              background: transparent;
+              margin: $spacing4 0 0 0;
+              label{
+                color: $bs-dark;
+                font-size: $fontSize2;
+              }
+
+            }
+          }
+          &Text {
+            &0 {
+              color:$bs-dark !important;
+            }
+            &1{
+              color: $bs-tertiary;
+            }
+          }
+          &Item {
+            &0 {
+              flex: 0 0 20%;
+              width: 100%;
+              border-radius: calc(5/16 * 1rem) calc(5/16 * 1rem) 0 0;
+              background-color: transparentize($color: $bs-tertiary, $amount: .2);
+            }
+            &1 {
+              flex: 0 0 80%;
+              width: 100%;
+              border-radius: 0 0 calc(5/16 * 1rem) calc(5/16 * 1rem) ;
+              background-color: transparentize($color: $bs-light, $amount: .2);
+            }
+            &2{
+              position: absolute;
+              inset: 0;
+              padding:$spacing8;
+              display: flex;
+
+            }
+            &3{
+              flex: 0 0 66%;
+              display: flex;
+              flex-flow:row wrap;
+              overflow: auto;
+            }
+            &4{
+              flex: 1 0 50%;
+              padding:$spacing3;
+              height: calc(150/16 * 1rem);
+              min-width: $spacing14;
+            }
+            &5{
+              height: 100%;
+              @include FlexCenterColumn;
+              padding:0;
+            }
+            &6{
+              flex: 0 0 30%;
+              width: 100%;
+              border-bottom: calc(1/16 * 1rem) solid $bs-dark;
+              display: flex;
+              align-items: center;
+              padding: $spacing3;
+              * {
+                color:$bs-tertiary;
+
+              }
+              p{
+                font-size: calc(12/16 * 1rem);
+              }
+            }
+            &7{
+              flex: 1 0 auto;
+              width: 100%;
+              background : url("/assets/media/shared/event_card_background.png");
+              background-color: lighten($color: $bs-grey, $amount: 60);
+              display: flex;
+              flex-direction: column;
+              padding: $spacing3 $spacing5;
+            }
+            &8{
+              color: $bs-dark;
+              font-size: calc(12/16 * 1rem);
+              display: flex;
+              justify-content: space-between;
+              flex: 1 0 auto;
+              align-items: center;
+            }
+            &9{
+              display: flex;
+              width: 100%;
+              align-items: center;
+            }
+            &10{
+              flex: 0 0 33%;
+              padding:$spacing3;
+            }
+            &11{
+              height: 100%;
+              background-color: lighten($color: $bs-grey, $amount: 60);
+              @include FlexCenterColumn;
+            }
+            &12{
+              display: flex;
+              flex-direction: column;
+              overflow:auto;
+              flex: 0 0 80%;
+              width: 100%;
+            }
+            &13{
+              background-color: $bs-light;
+              border-radius: calc(10/16 * 1rem);
+              border:calc(1/16 * 1rem) solid $bs-grey ;
+              padding:$spacing2;
+              margin: $spacing2 0 0 0;
+              *{
+                font-size: calc(12/16 * 1rem);
+              }
+            }
+          }
+          &Img {
+            &0 {
+              font-size: $fontSize2;
+              margin: 0 $spacing2 0 0;
+            }
+          }
+          &StrikeThru{
+            &0 {
+              border:calc(1/16 * 1rem) solid $bs-grey;
+              height: 100%;
+              flex: 0 0 calc(1/16 * 1rem);
+              margin: 0  $spacing4;
+            }
+            &1{
+              width: 100%;
+              height: calc(1/16 * 1rem);
+              border-bottom:calc(1/16 * 1rem) solid $bs-light;
+            }
+          }
+        }
+      }
+    }
+  }
+
+}

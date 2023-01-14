@@ -1,0 +1,61 @@
+@import "src/assets/styles/global.scss";
+
+
+
+
+
+
+:host {
+
+  
+  h3 {
+    margin: 0 0 10px;
+  }
+
+  pre {
+    background-color: #f5f5f5;
+    padding: 15px;
+  }
+
+
+  &.EventsCalendarView{
+    .EventsCalendar{
+      &Main{
+        &Pod{
+          margin:$spacing5 0 0 0
+        }
+      }
+      &Shared{
+        &Btn {
+          &0 {
+            border-radius: 0%;
+            label{
+              font-size: $fontSize1;
+            }
+          }
+        } 
+        &Item{
+          &0{
+            .EventsCalendarSharedBtn0:first-child{
+              border-radius: 1rem 0 0 1rem;
+            } 
+
+            .EventsCalendarSharedBtn0:last-child{
+              border-radius: 0 1rem  1rem 0;
+            } 
+          }
+        } 
+      }
+      &Pod{
+        &0{
+          display: flex;
+          justify-content: space-evenly;
+          margin: 0 0 $spacing5 0;
+        
+        }
+      }
+
+    }
+  }
+
+}

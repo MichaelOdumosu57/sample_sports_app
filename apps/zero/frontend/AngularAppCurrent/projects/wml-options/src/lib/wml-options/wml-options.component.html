@@ -1,0 +1,5 @@
+<div [class]="classPrefix('MainPod')">
+  <button  (click)="toggleChosen(option)" [class]="classPrefix('MainBtn0') + ' '+option.class" *ngFor="let option of params.options">
+    <label>{{option.text | translate}}</label>
+  </button>
+</div>

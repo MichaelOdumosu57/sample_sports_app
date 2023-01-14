@@ -1,0 +1,16 @@
+<div [class]="classPrefix('MainPod')">
+  <section [class]="classPrefix('Pod0')">
+    <div [class]="classPrefix('Pod0Icon0')" (click)="moveToPrevSlide()">
+      <i class="fa-solid fa-chevron-left"></i>
+    </div>
+    <wml-slicebox [params]="sliceBoxParams" [class]="classPrefix('Pod0Item0')"></wml-slicebox>
+    <div [class]="classPrefix('Pod0Icon0') " (click)="moveToNextSlide()">
+      <i class="fa-solid fa-chevron-right"></i>
+    </div>
+  </section>
+  <section [class]="classPrefix('Pod1')">
+    <div (click)="jumpToSlide(picker)" [class]="picker.class" *ngFor="let picker of pickers">
+      <label>{{picker.value}}</label>
+    </div>
+  </section>
+</div>

@@ -1,0 +1,91 @@
+/* To learn more about this file see: https://angular.io/config/tsconfig. */
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "baseUrl": "./",
+    "outDir": "./dist/out-tsc",
+    "forceConsistentCasingInFileNames": true,
+    "strict": false,
+    "noPropertyAccessFromIndexSignature": false,
+    "allowJs": true,
+    "noImplicitAny": false,
+    "noImplicitOverride": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "sourceMap": true,
+    "declaration": false,
+    "downlevelIteration": true,
+    "experimentalDecorators": true,
+    "moduleResolution": "node",
+    "importHelpers": true,
+    "target": "es2020",
+    "module": "es2020",
+    "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "lib": [
+      "es2020",
+      "dom"
+    ],
+    "paths": {
+
+      "@core/*": [
+        "src/app/core/*"
+      ],
+      "@environment/*": [
+        "src/environments/*"
+      ],
+      "@shared/*": [
+        "src/app/shared/*"
+      ],
+      "@helpers/*": [
+        "src/helpers/*"
+      ],
+      "@app/*": [
+        "src/app/*"
+      ],
+      "mobileNav": [
+        "dist/mobile-nav"
+      ],
+      "niblsIsPresent": [
+        "dist/nibls-is-present"
+      ],
+      "wml-field": [
+        "dist/wml-field"
+      ],
+      "wml-form": [
+        "dist/wml-form"
+      ],
+      "wml-input": [
+        "dist/wml-input"
+      ],
+      "wml-popup": [
+        "dist/wml-popup"
+      ],
+      "@windmillcode/wml-field": [
+        "projects/wml-field/src/public-api.ts"
+      ],
+      "@windmillcode/wml-form": [
+        "projects/wml-form/src/public-api.ts"
+      ],
+      "@windmillcode/wml-input": [
+        "projects/wml-input/src/public-api.ts"
+      ],
+      "@windmillcode/wml-popup": [
+        "projects/wml-popup/src/public-api.ts"
+      ],
+      "@angular-calendar": [
+        "projects/angular-calendar/src/index.ts"
+      ]
+    },
+    "types": [
+      "jasmine"
+    ]
+  },
+  "angularCompilerOptions": {
+    "enableI18nLegacyMessageIdFormat": false,
+    "strictInjectionParameters": true,
+    "strictInputAccessModifiers": true,
+    "strictTemplates": true
+  }
+}

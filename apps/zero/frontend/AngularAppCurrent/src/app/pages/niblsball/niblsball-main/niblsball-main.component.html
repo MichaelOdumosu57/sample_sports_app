@@ -1,0 +1,69 @@
+<div [class]="classPrefix('MainPod')">
+  <img [class]="classPrefix('MainImg0')" [src]=backdropImg.src [alt]=backdropImg.alt />
+  <mat-card [class]="classPrefix('Pod0')">
+    <div [class]="classPrefix('Pod0Item0')"></div>
+    <div [class]="classPrefix('Pod0Item1')"></div>
+    <div [class]="classPrefix('Pod0Item2')">
+      <ul [class]="classPrefix('Pod0Item3')">
+        <li [class]="classPrefix('Pod0Item4')" *ngFor="let event of season">
+          <mat-card [class]="classPrefix('Pod0Item5')">
+            <div [class]="classPrefix('Pod0Item6')">
+              <i [class]="classPrefix('Pod0Img0')" class="fa-solid fa-medal"></i>
+              <p>{{ "niblsBallMain.eventCard.sportName" | translate}}</p>
+              <div [class]="classPrefix('Pod0StrikeThru0')"></div>
+              <p [class]="classPrefix('Pod0Text0')">{{event.displayMatchTime}}</p>
+            </div>
+            <div [class]="classPrefix('Pod0Item7')">
+              <ng-container
+              [ngTemplateOutlet]="teamAndSpread"
+              [ngTemplateOutletContext] = "{
+                team:event.homeTeam,
+                spread:event.spreadAgainst,
+                spreadClass:event.spreadHomeClass,
+                event:event
+              }"
+              ></ng-container>
+              <div [class]="classPrefix('Pod0Item9')">
+                <div [class]="classPrefix('Pod0StrikeThru1')"></div>
+              </div>
+              <ng-container
+              [ngTemplateOutlet]="teamAndSpread"
+              [ngTemplateOutletContext] = "{
+                team:event.awayTeam,
+                spreadClass:event.spreadAwayClass,
+                spread:event.spreadFor,
+                event:event
+              }"
+              ></ng-container>
+            </div>
+          </mat-card>
+        </li>
+      </ul>
+      <div [class]="classPrefix('Pod0Item10')">
+        <mat-card [class]="classPrefix('Pod0Item11')">
+          <h3>{{"niblsBallMain.yourPicks.title" | translate}}</h3>
+          <ul [class]="classPrefix('Pod0Item12')">
+            <li [class]="classPrefix('Pod0Item13')" *ngFor="let event of season">
+              <p [class]="classPrefix('Pod0Text1')">{{ event.userSelection ??"niblsBallMain.yourPicks.noPredict" | translate}}</p>
+              <p [class]="classPrefix('Pod0Text0')">{{event.awayTeam}} @ {{event.homeTeam}}</p>
+              <p [class]="classPrefix('Pod0Text0')">{{event.displayMatchTime}}</p>
+            </li>
+          </ul>
+          <button *ngIf="false" [class]="classPrefix('Pod0Btn1')">
+            <label>{{"niblsBallMain.yourPicks.submit" | translate}}</label>
+          </button>
+        </mat-card>
+      </div>
+    </div>
+  </mat-card>
+</div>
+
+
+<ng-template #teamAndSpread let-team="team" let-spread="spread" let-event="event" let-spreadClass="spreadClass">
+  <div [class]="classPrefix('Pod0Item8')">
+    <p >{{team}}</p>
+    <button (click)="event.click(team,spread)" [class]="spreadClass">
+      <label>{{spread}}</label>
+    </button>
+  </div>
+</ng-template>

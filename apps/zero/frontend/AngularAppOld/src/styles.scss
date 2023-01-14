@@ -1,0 +1,205 @@
+@import "assets/styles/modern_scrollbar.scss";
+@import "assets/styles/global.scss";
+@import "assets/styles/_fonts.scss";
+@import "assets/styles/media-queries.scss";
+@import "https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Round";
+
+// misc
+@import "src/app/pages/team/team-main/team-main.component.phone.scss";
+@import "../projects/angular-calendar/src/angular-calendar.scss";
+@import "src/app/core/not-found/not-found.component.phone.scss";
+
+// layout
+@import "src/app/shared/components/nav/nav.component.phone.scss";
+@import "src/app/shared/components/footer/footer.component.phone.scss";
+@import "src/app/app.component.global.scss";
+
+// events
+@import "src/app/pages/events/events-calendar/events-calendar.component.global.scss";
+@import "src/app/pages/events/events-calendar/events-calendar.component.phone.scss";
+@import "src/app/pages/events/eventlist/eventlist.component.global.scss";
+@import "src/app/pages/events/purchase-event/purchase-event.component.global.scss";
+@import "src/app/pages/events/purchase-event/purchase-event.component.phone.scss";
+@import "src/app/pages/events/events-main/events-main.component.global.scss";
+@import "src/app/pages/events/events-main/events-main.component.phone.scss";
+
+// shopping mall
+@import "src/app/pages/mall/mall-main/mall-main.component.global.scss";
+
+// auth
+@import "src/app/pages/auth/sign-in/sign-in.component.global.scss";
+@import "src/app/pages/auth/sign-in/sign-in.component.phone.scss";
+@import "src/app/pages/auth/sign-up/sign-up.component.global.scss";
+@import "src/app/pages/auth/sign-up/sign-up.component.phone.scss";
+
+
+// profile
+@import "src/app/pages/profile/profile-main/profile-main.component.global.scss";
+
+:root {
+
+  @function provideRandomColor() {
+    $result: rgba(random(255), random(255), random(255), random(1));
+
+    @return $result;
+  }
+
+  @function contrastColor($color, $dark, $light) {
+    $result: if(lightness($color) < 45%, $light, $dark);
+    @return $result
+  };
+
+  @function prefixClass($class) {
+    @return ""+$class;
+  }
+
+
+
+
+  overflow: hidden;
+  font-size: 16px;
+  color: var(--bs-light);
+
+  .Global {
+    &Button {
+      &0 {
+        @include GlobalButton0;
+
+
+      }
+
+      &1 {
+        background-color: var(--black);
+        color: var(--white);
+        border: 1px solid var(--white);
+
+        &:hover {
+          background-color: var(--white);
+          color: var(--black);
+          border: 1px solid var(--black);
+        }
+      }
+    }
+    &Img {
+      &0 {
+        border: 16px solid #f3f3f3; /* Light grey */
+        border-top: 16px solid #3498db; /* Blue */
+        border-radius: 50%;
+        width: 120px;
+        height: 120px;
+        animation: GlobalImg0Sping 2s linear infinite;
+      }
+    }
+    &Strikethru{
+      &0{
+        border-top:calc(1/16 * 1rem) solid $bs-dark;
+        width: 100%;
+      }
+    }
+
+
+  }
+
+  @keyframes GlobalImg0Sping {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    :not(.material-icons-outlined){
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    }
+
+    &:not(h1,h2,h3,h4,h5,h6,span,p){
+      transition: all 1s;
+    }
+
+  }
+
+
+
+
+  mat-card{
+    background-color: $bs-light;
+  }
+  a {
+    color: white;
+  }
+
+
+  input:not([type='checkbox']),
+  select,
+  textarea {
+    width: 100%;
+  }
+
+  input:not([type='checkbox']){
+
+    word-wrap: break-word;
+    display: block;
+    font-size: inherit;
+    border-radius: 6px;
+
+    outline: none;
+    margin: 0;
+    padding: 0;
+    transition: all 1s;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+
+    width: 100%;
+  }
+
+  textarea{
+
+    font-size: inherit;
+    border-radius: 6px;
+    outline: none;
+    border: calc(2/16 * 1rem) inset rgb(118,118,118);
+    padding: $spacing4;
+    display: block;
+    margin: 0;
+    min-height: 40px;
+    height: 140px;
+    transition: all 1s;
+    width: 100%;
+    resize: none;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  }
+
+  select {
+    appearance: none;
+  }
+
+  li {
+    list-style: none;
+  }
+
+  h1 {
+    font-size: calc(var(--fontSize3) + 1.5vw);
+    text-decoration: underline solid var(--grey);
+  }
+
+  img{
+    width: 100%;
+    height: auto;
+  }
+
+  button {
+    @include GlobalButton0
+  }
+
+  html{
+    background-color: black;
+  }
+
+  #st-1 {
+    z-index: 0;
+  }
+
+}
+

@@ -1,0 +1,27 @@
+<div [class]="classPrefix('MainPod')">
+  <section [class]="classPrefix('Pod0')">
+    <div [class]="classPrefix('Pod0Item0')">
+      <h1>{{ "eventsMain.title" | translate}}</h1>
+      <img [class]="classPrefix('Pod0Img0')" [src]="handballImg.src" [alt]="handballImg.alt | translate" />
+    </div>
+    <div [class]="classPrefix('Pod0Item1')">
+      <mat-card [class]="classPrefix('Pod0Item2')">
+        <h2>{{ "eventsMain.wallet.title" | translate}}</h2>
+        <ul>
+          <li *ngFor="let btn of walletButtons">
+            <button (click)="btn.click && btn.click($event)" [class]="classPrefix('Pod0Btn0')">
+              <img [src]=btn.iconSrc [alt]=btn.iconAlt />
+              <label>{{btn.value | translate}}</label>
+            </button>
+          </li>
+        </ul>
+
+      </mat-card>
+
+    </div>
+  </section>
+  <section [class]="classPrefix('Pod1')">
+    <!-- <events-calendar></events-calendar> -->
+    <eventlist></eventlist>
+  </section>
+</div>

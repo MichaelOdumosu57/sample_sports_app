@@ -1,0 +1,45 @@
+
+@import "src/assets/styles/global.scss";
+
+
+:host {
+
+
+  &.DefaultFooterView{
+    display: block;
+    *{
+      font-family: "888", verdana, sans-serif;
+      color:$bs-dark;
+    }
+    .DefaultFooter{
+      &Main{
+        &Pod{
+          @include MainPodCssRule0;
+          padding:$spacing10;
+        }
+      }
+      &Pod{
+
+        &0{
+          display: flex;
+          &Item {
+            &0 {
+              margin: 0 0 0 $spacing5;
+              max-width: $spacing13;
+              *{
+                font-size:calc(12/16 * 1rem);
+                text-decoration: none;
+              }
+            }
+          }
+          &Text {
+            &0 {
+              margin: 0 0 $spacing3  0;
+            }
+          }
+        }
+      }
+    }
+  }
+
+}

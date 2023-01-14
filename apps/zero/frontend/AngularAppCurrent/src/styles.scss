@@ -1,0 +1,215 @@
+@import "assets/styles/modern_scrollbar.scss";
+@import "assets/styles/global.scss";
+@import "assets/styles/_fonts.scss";
+@import "assets/styles/media-queries.scss";
+
+// misc
+
+@import "src/app/core/not-found/not-found.component.phone.scss";
+
+
+@import "src/app/app.component.global.scss";
+
+// default layout
+@import "src/app/layouts/default/default-betslip/default-betslip.component.global.scss";
+@import "src/app/layouts/default/default-nav-share/default-nav-share.component.global.scss";
+
+// profile
+@import "src/app/pages/profile/profile-main/profile-main.component.global.scss";
+
+// shopping mall
+@import "src/app/pages/mall/mall-main/mall-main.component.global.scss";
+
+// events
+@import "src/app/pages/events/purchase-event/purchase-event.component.global.scss";
+@import "src/app/pages/events/purchase-event/purchase-event.component.phone.scss";
+
+
+// collegiate sign up
+@import "src/app/pages/collegiate-signup/collegiate-signup-main/collegiate-signup-main.component.global.scss";
+
+:root {
+
+  @function provideRandomColor() {
+    $result: rgba(random(255), random(255), random(255), random(1));
+
+    @return $result;
+  }
+
+  @function contrastColor($color, $dark, $light) {
+    $result: if(lightness($color) < 45%, $light, $dark);
+    @return $result
+  };
+
+  @function prefixClass($class) {
+    @return ""+$class;
+  }
+
+
+
+
+
+
+  overflow: hidden;
+  font-size: 16px;
+  color: var(--bs-light);
+
+  .Global {
+    &BackdropImg{
+      &0{
+        // @include globalBackdropImg0;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        inset: 0;
+      }
+    }
+    &Button {
+      &0 {
+        @include GlobalButton0;
+
+
+      }
+
+      &1 {
+        background-color: var(--black);
+        color: var(--white);
+        border: 1px solid var(--white);
+
+        &:hover {
+          background-color: var(--white);
+          color: var(--black);
+          border: 1px solid var(--black);
+        }
+      }
+    }
+    &Img {
+      &0 {
+        border: calc(16/16 * 1rem) solid #f3f3f3; /* Light grey */
+        border-top: calc(16/16 * 1rem) solid #3498db; /* Blue */
+        border-radius: 50%;
+        width: calc(120/16 * 1rem);
+        height: calc(120/16 * 1rem);
+        animation: GlobalImg0Sping 2s linear infinite;
+      }
+    }
+    &Strikethru{
+      &0{
+        border-top:calc(1/16 * 1rem) solid $bs-dark;
+        width: 100%;
+      }
+    }
+
+
+  }
+
+  @keyframes GlobalImg0Sping {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+
+
+    &:not(h1,h2,h3,h4,h5,h6,span,p){
+      transition: all 1s;
+    }
+
+  }
+
+
+
+
+
+
+
+
+  mat-card{
+    background-color: $bs-light;
+  }
+  a {
+    color: white;
+  }
+
+
+  input:not([type='checkbox']),
+  select,
+  textarea {
+    width: 100%;
+  }
+
+  input:not([type='checkbox']){
+
+    word-wrap: break-word;
+    display: block;
+    font-size: inherit;
+    border-radius: calc(6/16 * 1rem);
+
+    outline: none;
+    margin: 0;
+    padding: 0;
+    transition: all 1s;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+
+    width: 100%;
+  }
+
+  textarea{
+
+    font-size: inherit;
+    border-radius: calc(6/16 * 1rem);
+    outline: none;
+    border: calc(2/16 * 1rem) inset rgb(118,118,118);
+    padding: $spacing4;
+    display: block;
+    margin: 0;
+    min-height: calc(40/16 * 1rem);
+    height: calc(140/16 * 1rem);
+    transition: all 1s;
+    width: 100%;
+    resize: none;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  }
+
+  select {
+    appearance: none;
+  }
+
+  li {
+    list-style: none;
+  }
+
+  h1 {
+    text-decoration: underline solid var(--grey);
+  }
+
+  img{
+    width: 100%;
+    height: auto;
+  }
+
+  button {
+    background-color: transparent;
+  }
+
+  html,body{
+    background-color: $bs-primary;
+  }
+
+  #st-1 {
+    z-index: 0;
+  }
+
+  .mat-mdc-chip.mdc-evolution-chip--with-trailing-action .mat-mdc-chip-action-label{
+    white-space: break-spaces;
+    word-wrap: break-word;
+  }
+
+}
+

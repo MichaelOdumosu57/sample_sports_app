@@ -1,0 +1,9 @@
+<ng-container [formGroup]="meta.wmlField.field.parentForm">
+  <input [class]="classPrefix('MainPodInput0')" *ngIf="meta.type==='input'"[formControlName]="meta.wmlField.field.formControlName" (input)="triggerChange($event)"/>
+  <textarea [class]="classPrefix('MainPodInput1')" *ngIf="meta.type==='textarea' "[formControlName]="meta.wmlField.field.formControlName" (input)="triggerChange($event)"></textarea>
+  <input type="range" *ngIf="meta.type==='range' " [formControlName]="meta.wmlField.field.formControlName" (input)="triggerChange($event)" min="0" max="10"/>
+  <div [class]="classPrefix('Pod0')" *ngIf="meta.type ==='checkbox'">
+    <input type="checkbox" [formControlName]="meta.wmlField.field.formControlName" (input)="triggerChange($event)"/>
+    <span>{{(meta.checkboxDesc | translate) ?? "Check as appropriate"}}</span>
+  </div>
+</ng-container>

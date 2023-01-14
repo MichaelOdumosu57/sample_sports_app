@@ -1,0 +1,19 @@
+#root purchase-event{
+  @media #{$mobile}{
+    .PurchaseEventPod1,.PurchaseEventPod2{
+      padding:0
+    }
+    .PurchaseEventPod1Item2{
+      flex-direction: column;
+    }
+
+    .PurchaseEventPod1Item0{
+      flex-direction: column;
+    }
+
+    .PurchaseEventPod1Img0{
+      width: 100%;
+    }
+  }
+
+}

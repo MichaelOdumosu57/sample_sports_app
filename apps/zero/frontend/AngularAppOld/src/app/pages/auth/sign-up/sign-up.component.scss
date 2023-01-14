@@ -1,0 +1,60 @@
+
+@import "src/assets/styles/global.scss";
+
+
+:host {
+
+
+  &.SignUpView{
+    .SignUp{
+      &Main{
+        &Pod{
+          @include MainPodCssRule0;
+          text-align: center;
+        }
+      }
+      &Pod{
+        &0{
+          display: flex;
+          width: 100%;
+          &Btn {
+            &0 {
+              display: flex;
+              margin: 0 0 $spacing5 0;
+              border-radius: 0;
+              border: calc(3/16 * 1rem) solid $bs-grey;
+              &:not(:hover){
+                background: $bs-primary-gradient;
+              }
+              img {
+                width: 10%;
+                height: auto;
+                border-radius: 100%;
+                margin:0 $spacing5 0 0;
+              }
+
+              label{
+                font-size: $fontSize2;
+              }
+            }
+          }
+          &Item {
+            @for $i from 0 through 1 {
+              &#{$i} {
+                flex: 0 0 50%;
+                padding: 0 $spacing10;
+              }
+            }
+
+            &1{
+              display: flex;
+              flex-direction: column;
+            }
+          }
+
+        }
+      }
+    }
+  }
+
+}

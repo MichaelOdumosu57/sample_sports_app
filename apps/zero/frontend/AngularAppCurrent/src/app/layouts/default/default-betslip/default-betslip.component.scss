@@ -1,0 +1,32 @@
+
+@import "src/assets/styles/global.scss";
+
+
+:host {
+
+
+  &.DefaultBetslipView{
+    display: block;
+    max-width: 100%;
+    .DefaultBetslip{
+      &Main{
+        &Pod{
+          @include MainPodCssRule0;
+
+        }
+      }
+      &Pod{
+
+        @for $i from 0 through 1 {
+          &#{$i} {
+            width: 100%;
+            max-width: $pageMaxWidth;
+          }
+        }
+
+        &0{}
+      }
+    }
+  }
+
+}

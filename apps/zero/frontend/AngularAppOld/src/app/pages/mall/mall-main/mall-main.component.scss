@@ -1,0 +1,23 @@
+
+@import "src/assets/styles/global.scss";
+
+
+:host {
+
+
+  &.MallMainView{
+    .MallMain{
+      &Main{
+        &Pod{
+          padding:$spacing3 $spacing12 0  $spacing12;
+          max-width: $pageMaxWidth;
+          margin: auto;
+        }
+      }
+      &Pod{
+        &0{}
+      }
+    }
+  }
+
+}

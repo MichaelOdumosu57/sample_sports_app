@@ -1,0 +1,111 @@
+
+@import "src/assets/styles/global.scss";
+
+
+:host {
+
+
+  &.DefaultAsideView{
+    display: block;
+    width: 100%;
+    height: 100%;
+
+
+    .DefaultAside{
+      &Main{
+        &Pod{
+          @include MainPodCssRule0;
+          padding:calc(16/16 * 1rem);
+          width: 100%;
+          height: 100%;
+          background-color: $black;
+          overflow: auto;
+        }
+      }
+      &Pod{
+
+        &0{
+          flex: 0 0 calc(280/16 * 1rem);
+          margin: 0 0 $spacing7 0;
+          @include FlexCenterColumn;
+          &Item {
+            &0 {
+              margin: $spacing9 0 0 0;
+              background-color: $bs-dark;
+              flex: 1 0 auto;
+              width: 100%;
+              padding: $spacing2;
+              @include FlexCenterColumn;
+              *{
+                color: $bs-light;
+              }
+            }
+          }
+          &Img {
+            &0 {
+              margin: calc(-25/16 * 1rem) 0 0 0;
+              width: 50%;
+              max-width: calc(70/16 * 1rem);
+            }
+          }
+          &Btn {
+            &0 {
+              @include GlobalButton0;
+              width: 100%;
+              margin:$spacing2 0 0 0;
+              label{
+                font-size: calc(16/16 * 1rem);
+              }
+            }
+          }
+        }
+        &1{
+          &Item {
+            &0 {
+              display: flex;
+              flex-direction: column;
+              background-color: $bs-dark;
+              border-radius: 10%;
+              padding: $spacing3;
+              margin: $spacing5 0 0 0;
+            }
+          }
+          &Icon {
+            &0 {
+              background-color: $bs-tertiary;
+              color:$black !important;
+            }
+          }
+          &Btn {
+            &0 {
+              display: flex;
+              align-items: center;
+              padding: $spacing2 0;
+              border:none;
+              &:not(:last-of-type){
+                border-bottom: calc(1/16 * 1rem) solid $black;
+              }
+              &:hover{
+                i {
+                  background-color: $bs-tertiary ;
+                }
+              }
+              i{
+                font-size: $fontSize1;
+                margin: 0 $spacing3;
+                padding:$spacing3;
+                border-radius: 100%;
+                color:$bs-light;
+              }
+              label{
+                color:$bs-light;
+                font-size: calc(12/16 * 1rem);
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+}

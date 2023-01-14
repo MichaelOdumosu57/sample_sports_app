@@ -1,0 +1,103 @@
+
+@import "src/assets/styles/global.scss";
+
+
+:host {
+
+
+  &.DefaultNavView{
+    display: block;
+    .DefaultNav{
+      &Main{
+        &Pod{
+          @include MainPodCssRule1;
+          padding: 0;
+          height: 100%;
+        }
+      }
+      &Pod{
+
+        &0{
+          flex: 0 1 20%;
+        }
+        &1{
+          display: flex;
+          flex: 1 0 80%;
+          justify-content: flex-end;
+          align-items: center;
+          padding: 0 $spacing5;
+          &Dropdown {
+            &0 {
+              position: absolute;
+              top:100%;
+              width: 100%;
+              overflow: hidden;
+            }
+          }
+          &Item {
+            @for $i from 0 through 1 {
+              &#{$i} {
+                margin:0  0 0 $spacing5;
+              }
+            }
+            &1 {
+              border: calc(1/16 * 1rem) solid $bs-grey;
+              height: 80%;
+              flex: 0 1 calc(1/16 * 1rem);
+            }
+            &2{
+              height: 100%;
+              flex: 0 0 $spacing12;
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              position: relative;
+            }
+            &3{
+              height: 100%;
+              flex: 0 0 $spacing8;
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              position: relative;
+            }
+          }
+          &Btn {
+            @for $i from 0 through 2  {
+              &#{$i} {
+
+                border: calc(1/16 * 1rem) solid $bs-danger;
+                &:hover {
+                  background: $bs-tertiary-gradient;
+                  font-weight: bolder;
+                }
+              }
+            }
+            &2{
+              border-radius: 100%;
+              height: 60%;
+              flex: 0 0 $spacing7;
+              margin:0  0 0 $spacing5;
+            }
+            &0 {
+              border-radius: calc(20/16 * 1rem);;
+              color:$bs-tertiary;
+              margin:0  0 0 $spacing5;
+              padding:$spacing2 $spacing5;
+            }
+            &1 {
+              background-color: $bs-light;
+              border-radius: calc(20/16 * 1rem);
+              color:$bs-tertiary;
+              margin:0  0 0 $spacing5;
+              padding:$spacing2 $spacing5;
+            }
+          }
+        }
+      }
+    }
+  }
+
+}
+
+

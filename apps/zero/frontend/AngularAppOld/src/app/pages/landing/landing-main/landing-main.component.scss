@@ -1,0 +1,53 @@
+@import "src/assets/styles/global.scss";
+
+:host {
+  .my-marquee {
+    overflow: hidden;
+  }
+  
+  .my-marquee > ul {
+    position: relative;
+  }
+
+
+  
+  &.LandingMainView{
+    .LandingMain{
+      &Main{
+        &Pod{
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+
+        } 
+      }
+
+      &Pod{
+        &0{
+          max-height:calc(500/16 * 1rem);
+          display: block;
+          &Item {
+            &0{
+              display: flex;
+              max-width: calc(2400/16 * 1rem);
+            }
+            &1{
+                height:100%;
+              }
+            &2{
+              height: calc(100/16 * 1rem);
+            }
+          }
+          &Img {
+            &0 {
+              margin: 0 var(--spacing5) 0 0;
+              max-width:calc(500/16 * 1rem);
+              height:calc(500/16 * 1rem);
+            }
+          }
+        }
+      }
+    }
+  }
+
+}

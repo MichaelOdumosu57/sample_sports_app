@@ -1,0 +1,14 @@
+#root app-nav{
+  @media #{$mobile}{
+
+    .NavPod0Item0,.NavPod0Item2,.NavPod0Item3{
+      display: none;
+    }
+    .NavPod0Img2{
+      display: block;
+    }
+
+
+
+  }
+}

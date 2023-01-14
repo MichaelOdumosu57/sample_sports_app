@@ -1,0 +1,29 @@
+<div [class]="classPrefix('MainPod')">
+  <section [class]="classPrefix('Pod0')">
+    <span (click)="baseService.closePopup()" [class]=" classPrefix('Pod0Img0') + ' material-icons-outlined'">close</span>
+  </section>
+  <section [class]="classPrefix('Pod1')">
+    <h2 >{{"purchaseEvent.title" | translate}}</h2>
+    <p>{{"purchaseEvent.subTitle" | translate}}</p>
+    <div [class]="'GlobalStrikethru0'"></div>
+    <div [class]="classPrefix('Pod1Item0')">
+      <img [class]="classPrefix('Pod1Img0')" [src]="meta.mainImgSrc" [alt]="meta.mainImgAlt"/>
+      <div [class]="classPrefix('Pod1Item1')">
+        <div [class]="classPrefix('Pod1Item2')" *ngFor="let info of pricing" >
+          <h3>{{info.pricingKey.value | translate }}</h3>
+          <p *ngIf="info.pricingValue.type ==='text'">{{info.pricingValue.value}}</p>
+          <div [class]="classPrefix('Pod1Item3')" *ngIf="info.pricingValue.type ==='input'" [formGroup]="rootFormGroup" >
+            <input [formControlName]="ENV.eventList.ticketQuantityFieldFormControlName" type="number"  min=1/>
+            <custom-label [params]="ticketQuantityField.error.custom.meta"></custom-label>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section [class]="classPrefix('Pod2')">
+    <wml-form [params]="wmlForm"></wml-form>
+    <button (click)="submitBtn.click($event)">
+      {{submitBtn.value | translate}}
+    </button>
+  </section>
+</div>

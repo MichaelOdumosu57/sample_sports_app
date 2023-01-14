@@ -1,0 +1,8 @@
+<mat-card [class]="classPrefix('MainPod')">
+  <section [class]="classPrefix('Pod0')">
+    <i (click)="baseService.closePopup()" [class]=" classPrefix('Pod0Img0') + ' fa-solid fa-xmark'" ></i>
+  </section>
+  <section [class]="classPrefix('Pod1')">
+    <a [href]="params.route">{{params.text | translate}}</a>
+  </section>
+</mat-card>

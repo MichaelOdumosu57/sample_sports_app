@@ -1,0 +1,43 @@
+
+@import "src/assets/styles/global.scss";
+
+
+:host {
+
+
+  &.DefaultNavShareView{
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: $bs-dark;
+    max-width: $pageMaxWidth;
+    margin:auto;
+    *{
+      color: $bs-light;
+    }
+    .DefaultNavShare{
+      &Main{
+        &Pod{
+          @include MainPodCssRule0;
+          height: 100%;
+          overflow:auto
+
+        }
+      }
+      &Pod{
+        &0{
+          display: flex;
+          flex-direction: row-reverse;
+        }
+        &1{
+          overflow:auto;
+          h2{
+            text-align: center;
+            margin: 0 0 $spacing5 0;
+          }
+        }
+      }
+    }
+  }
+
+}

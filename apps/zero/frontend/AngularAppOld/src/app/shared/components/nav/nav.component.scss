@@ -1,0 +1,132 @@
+@import "src/assets/styles/global.scss";
+
+
+:host {
+
+
+  &.NavView{
+
+    .Nav{
+      &Main {
+        &Pod{
+          background: $bs-primary;
+          display: flex;
+          justify-content: center;
+          * {
+            font-family: cadillacSans;
+          }
+        }
+      }
+
+
+      &Pod{
+        &0{
+          max-height:calc(150/16 * 1rem);
+          @include pageLayout0;
+
+          width: 100%;
+
+          color: var(--bs-light);
+          padding:var(--spacing4) 0;
+          &Img {
+            &0 {
+              width:20%;
+              max-width: calc(400/16 * 1rem);
+              min-width: calc(100/16 * 1rem);;
+              max-height:calc(50/16 * 1rem);
+            }
+            &1 {
+              width:20%;
+              max-width: calc(200/16 * 1rem);
+              margin: 0 var(--spacing4) 0  0 ;
+              filter: invert(100%) sepia(0%) saturate(2%) hue-rotate(353deg) brightness(105%) contrast(101%);
+            }
+            &2{
+              max-width: calc(50/16 * 1rem);
+              display: none;
+            }
+          }
+
+          &Button {
+
+            @for $i from 0 through 1 {
+              &#{$i} {
+                height: 100%;
+                display: flex;
+                align-items: center;
+                margin:0 $spacing3 0 0 ;
+                label {
+                  font-size: 1rem !important;
+                  margin:0 0 0 $spacing3;                }
+                img{
+                  width: 1.5rem;
+                }
+              }
+            }
+
+            &0 {
+              @include GlobalButton0;
+            }
+            &1{
+              @include GlobalButton0;
+              background: none;
+              background-color: $spotify-primary-color;
+
+              &:hover {
+                background: $spotify-primary-gradient-color;
+              }
+            }
+          }
+
+          &Item {
+            &0 {
+              display: flex;
+              justify-content: flex-end;
+              margin: 0 0 var(--spacing4) 0;
+            }
+            &1 {
+              display: flex;
+              justify-content: space-between;
+            }
+            &2{
+              display: flex;
+              // flex: 0 0 40%;
+            }
+            &3{
+              flex: 0 0 20%;
+              display: flex;
+              align-items: center;
+              justify-content: flex-end;
+            }
+            &4{
+              display: flex;
+              align-items: stretch;
+            }
+
+          }
+
+          &List {
+            &0 {
+              display: flex;
+              align-items: center;
+              flex-flow:row wrap;
+            }
+          }
+          &Text {
+            &0{
+              font-size: calc(24/16 * 1rem);;
+              margin:0 var(--spacing6) 0 0;
+            }
+            &1{
+              font-size: var(--fontSize2);
+              display: flex;
+              align-items: center;
+            }
+
+          }
+        }
+      }
+    }
+  }
+
+}

@@ -1,0 +1,10 @@
+<main [class]="classPrefix('MainPod')">
+  <section [class]="classPrefix('Pod0')" *ngFor="let section of displayFields">
+    <div [class]="classPrefix('Pod0Item0')" *ngFor="let field of section">
+      <mat-card *ngIf="field.self.type === 'wml-card'">
+        <wml-field [field]="field"></wml-field>
+      </mat-card>
+      <wml-field [field]="field" *ngIf="field.self.type === 'standalone'"></wml-field>
+    </div>
+  </section>
+</main>

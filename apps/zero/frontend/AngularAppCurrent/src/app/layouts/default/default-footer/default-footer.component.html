@@ -1,0 +1,23 @@
+<div [class]="classPrefix('MainPod')">
+  <section [class]="classPrefix('Pod0')">
+    <div [class]="classPrefix('Pod0Item0')" *ngFor="let content of contents">
+      <h3 [class]="classPrefix('Pod0Text0')">{{content.title| translate}}</h3>
+      <ul *ngFor="let item of content.links">
+        <li >
+          <a  *ngIf="item.type=== 'download'" [download]="item.download" [href]="item.href" >
+            {{item.text | translate}}
+          </a>
+          <a  *ngIf="item.type=== 'href'" [href]="item.href" >
+            {{item.text | translate}}
+          </a>
+          <a *ngIf="item.type=== 'route'" [routerLink]="item.route" >
+            {{item.text | translate}}
+          </a>
+        </li>
+      </ul>
+    </div>
+  </section>
+  <section [class]="classPrefix('Pod1')">
+
+  </section>
+</div>

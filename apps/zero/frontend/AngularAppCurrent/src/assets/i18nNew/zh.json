@@ -1,0 +1,72 @@
+{
+    "collegiateSignupMain": {
+        "backdropImgAlt": "\u5b66\u6821\u8fd0\u52a8\u573a",
+        "title": "\u5927\u5b66/\u5927\u5b66/\u9ad8\u4e2d\u8d5e\u52a9\u52a0\u901f\u5668\u8bf7\u6c42\u8868",
+        "fields": {
+            "email": {
+                "label": "\u7535\u5b50\u90ae\u4ef6"
+            },
+            "customerStatus": {
+                "label": "\u60a8\u662f\u65b0\u5ba2\u6237\u8fd8\u662f\u73b0\u6709\u5ba2\u6237\uff1f",
+                "options": [
+                    "\u6211\u662f\u65b0\u5ba2\u6237",
+                    "\u6211\u662f\u73b0\u6709\u5ba2\u6237"
+                ]
+            },
+            "profileName": {
+                "label": "\u914d\u7f6e\u6587\u4ef6\u540d\u79f0",
+                "sublabels": [
+                    "\u8bf7\u8f93\u5165\u540d\u5b57\u548c\u59d3\u6c0f"
+                ]
+            },
+            "teamName": {
+                "label": "\u60a8\u5f00\u59cb\u7684\u5b66\u6821\u7684\u540d\u5b57\u6216\u56e2\u961f\u7684\u540d\u5b57\u662f\u4ec0\u4e48\uff1f"
+            },
+            "startupStage": {
+                "label": "\u60a8\u7684\u521b\u4e1a\u4ff1\u4e50\u90e8\u56e2\u961f\u6216\u7ec4\u7ec7\u7684\u9636\u6bb5\u662f\u4ec0\u4e48\uff1f\uff08\u8be6\u7ec6\u89e3\u91ca\uff09",
+                "sublabels": [
+                    "\u9009\u62e9\u5c3a\u5bf8\u548c\u6bcf\u989c\u8272\u7684\u6570\u5b57"
+                ]
+            },
+            "employeeCount": {
+                "label": "\u5458\u5de5\u4eba\u6570\uff1f"
+            },
+            "atheleticPlayers": {
+                "label": "\u56e2\u961f\u8fd0\u52a8\u5458\u4eba\u6570\uff1f",
+                "sublabels": [
+                    "\uff08\u6700\u4f4e\u4f18\u5148\u91d1\u989d7-14\uff09"
+                ]
+            },
+            "socialMediaHandles": {
+                "label": "\u4ff1\u4e50\u90e8\u793e\u4ea4\u5a92\u4f53\u624b\u67c4"
+            },
+            "fundingAmnt": {
+                "label": "\u542f\u52a8\u8d44\u91d1\u91d1\u989d\u6216\u8d5e\u52a9\u798f\u5229\uff1f",
+                "options": [
+                    "\u4ee3\u8a00",
+                    "$ 5,000.00- $ 10,000.00",
+                    "$ 20,000.00",
+                    "$ 50,000.00",
+                    "$ 100,000.00- $ 500,000.00",
+                    "$ 1,000,000.00+",
+                    "\u8fd8\u4e0d\u77e5\u9053"
+                ]
+            },
+            "preferredContact": {
+                "label": "\u9996\u9009\u63a5\u89e6\u65b9\u6cd5",
+                "options": [
+                    "\u7535\u8bdd",
+                    "\u7535\u5b50\u90ae\u4ef6",
+                    "\u9886\u82f1\u7f51"
+                ]
+            },
+            "teamLogo": {
+                "label": "\u60a8\u7684\u56e2\u961f\u5fbd\u6807\uff1f"
+            },
+            "pitchDeck": {
+                "label": "\u5927\u5b66/\u5b66\u9662/\u9ad8\u4e2d\u7532\u677f\uff0c\u97f3\u8c03\u94fe\u63a5\u6216\u6f14\u793a\u6587\u7a3f\uff1f"
+            }
+        },
+        "submit": "\u63d0\u4ea4"
+    }
+}

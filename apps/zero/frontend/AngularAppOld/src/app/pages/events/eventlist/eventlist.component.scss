@@ -1,0 +1,29 @@
+@import "src/assets/styles/global.scss";
+
+
+:host {
+
+
+  &.EventlistView{
+    .Eventlist{
+      &Main{
+        &Pod{
+          @include pageLayout1;
+          > * {
+            width: 80%;
+          }
+        }
+      }
+      &Pod{
+        &0{
+          &Item{
+            &0{
+
+            }
+          }
+        }
+      }
+    }
+  }
+
+}

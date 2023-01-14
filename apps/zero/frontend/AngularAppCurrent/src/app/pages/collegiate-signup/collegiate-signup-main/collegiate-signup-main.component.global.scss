@@ -1,0 +1,35 @@
+#root collegiate-signup-main{
+  .WmlLabelMainPodLabel0{
+    color:$bs-light;
+  }
+  .WmlFormPod0:nth-child(1),
+  .WmlFormPod0:nth-child(2),
+  .WmlFormPod0:nth-child(3),
+  .WmlFormPod0:nth-child(4),
+  .WmlFormPod0:nth-child(5),
+  .WmlFormPod0:nth-child(7){
+    display: flex;
+    justify-content: space-between;
+
+  }
+
+  .WmlFormPod0:nth-child(1) .WmlFormPod0Item0{
+    flex: 0 0 30%;
+  }
+
+
+  .WmlFormPod0:nth-child(2),
+  .WmlFormPod0:nth-child(3),
+  .WmlFormPod0:nth-child(4),
+  .WmlFormPod0:nth-child(5),
+  .WmlFormPod0:nth-child(7){
+    .WmlFormPod0Item0{
+      flex: 0 0 48%;
+    }
+  }
+
+
+  .WmlInputMainPodInput0 {
+    padding:$spacing3 $spacing5;
+  }
+}

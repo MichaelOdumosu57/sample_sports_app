@@ -1,0 +1,25 @@
+
+@import "src/assets/styles/global.scss";
+
+
+:host {
+
+
+  &.NotFoundView{
+    .NotFound{
+      &Main{
+        &Pod{
+          @include MainPodCssRule1;
+
+
+        }
+      }
+      &Pod{
+
+        &0{}
+        &1{}
+      }
+    }
+  }
+
+}

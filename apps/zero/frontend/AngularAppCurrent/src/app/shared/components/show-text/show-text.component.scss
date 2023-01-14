@@ -1,0 +1,45 @@
+
+@import "src/assets/styles/global.scss";
+
+
+:host {
+
+
+  &.ShowTextView{
+    display: block;
+    .ShowText{
+      &Main{
+        &Pod{
+          @include FlexCenterColumn;
+          height: 50vh;
+          a{
+            color: $bs-dark;
+            font-size: $fontSize4;
+
+          }
+        }
+      }
+      &Pod{
+
+        &0{
+          display: flex;
+          justify-content: flex-end;
+          width: 100%;
+          &Img {
+            &0 {
+              font-size: $fontSize3;
+            }
+          }
+        }
+        &1{
+          width: 100%;
+          height: 100%;
+          position: absolute;
+          @include FlexCenterColumn;
+          justify-content: center;
+        }
+      }
+    }
+  }
+
+}

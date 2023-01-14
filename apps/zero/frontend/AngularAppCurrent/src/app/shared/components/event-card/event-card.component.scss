@@ -1,0 +1,24 @@
+
+@import "src/assets/styles/global.scss";
+
+
+:host {
+
+
+  &.EventCardView{
+    display: block;
+    .EventCard{
+      &Main{
+        &Pod{
+          @include MainPodCssRule0;
+          
+        }
+      }
+      &Pod{
+
+        &0{}
+      }
+    }
+  }
+
+}

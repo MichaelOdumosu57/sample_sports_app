@@ -1,0 +1,10 @@
+#root sign-up{
+  @media #{$mobile}{
+    .SignUpPod0{
+      flex-direction: column;
+    }
+    .SignUpPod0Item0{
+      margin: 0 0 $spacing5 0;
+    }
+  }
+}

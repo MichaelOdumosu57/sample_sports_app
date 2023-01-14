@@ -1,0 +1,10 @@
+<div [class]="classPrefix('MainPod')">
+  <div [class]="classPrefix('Pod0Item0')" data-speed="1.25"  data-pausable="false">
+      <ul [class]="classPrefix('Pod0Item1')">
+          <img *ngFor="let img of marqueeImages" [class]="classPrefix('Pod0Img0')" [src]="img.src" [alt]="img.alt" />
+      </ul>
+  </div>
+  <section [class]="classPrefix('Pod0')">
+  </section>
+  <div class="sharethis-inline-share-buttons"></div>
+</div>

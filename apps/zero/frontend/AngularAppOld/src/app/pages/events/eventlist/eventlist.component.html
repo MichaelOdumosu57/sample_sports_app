@@ -1,0 +1,9 @@
+<div [class]="classPrefix('MainPod')">
+  <ul [class]="classPrefix('Pod0')" [scrollBottomPagination]="scrollBottomPaginationParams">
+    <li
+    [class]="classPrefix('Pod0Item0')"
+    *ngFor="let card of eventList; let index = index;">
+      <wml-profile-detail-card (click)="card.click(card)" [item]="card.item" ></wml-profile-detail-card>
+    </li>
+  </ul>
+</div>

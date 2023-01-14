@@ -1,0 +1,24 @@
+<div [class]="classPrefix('MainPod')">
+  <section *ngIf="false" [class]="classPrefix('Pod0')">
+    <mat-card (click)="option.click($event)" [class]="classPrefix('Pod0Item0')" *ngFor="let option of profileOptions">
+      <h2>{{option.title | translate}}</h2>
+      <h3>{{option.subTitle | translate}}</h3>
+    </mat-card>
+  </section>
+  <section [class]="classPrefix('Pod1')">
+    <mat-card [class]="classPrefix('Pod1Item0')">
+      <img [class]="classPrefix('Pod1Img0')" [src]="avatarImg.src" [alt]="avatarImg.alt" />
+      <h2>{{profileInfo.userName}}</h2>
+    </mat-card>
+    <mat-card [class]="classPrefix('Pod1Item1')">
+      <h2 [class]="classPrefix('Pod1Text0')">{{"profileMain.basicDemographic.title" | translate }}</h2>
+      <wml-form [params]="basicDemographicsWmlForm"></wml-form>
+      <div  [class]="classPrefix('Pod1Item2')">
+        <button (click)="basicDemographicsUpdateBtn.click($event)" [class]="classPrefix('Pod1Btn0')">
+          <label>{{basicDemographicsUpdateBtn.value | translate}}</label>
+        </button>
+      </div>
+
+    </mat-card>
+  </section>
+</div>

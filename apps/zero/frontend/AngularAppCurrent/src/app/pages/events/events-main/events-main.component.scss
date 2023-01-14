@@ -1,0 +1,222 @@
+
+@import "src/assets/styles/global.scss";
+
+
+:host {
+
+  @mixin EventsMainPod0Btn0{
+    background-color: $bs-tertiary !important;
+  }
+
+
+  &.EventsMainView{
+    display: block;
+    width: 100%;
+    height: calc(1000/16 * 1rem);
+    .EventsMain{
+      &Main{
+        &Pod{
+          @include MainPodCssRule0;
+          width: 100%;
+          height: 100%;
+          padding:$spacing5;
+          // overflow: auto;
+        }
+        &Img {
+          &0 {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            inset: 0;
+          }
+        }
+      }
+      &Pod{
+
+        &0{
+          height: 100%;
+          background-color: transparent;
+          @include FlexCenterColumn;
+          padding:0;
+          &Btn {
+            &Hover {
+              &0 {
+                @include EventsMainPod0Btn0;
+              }
+            }
+            &0 {
+              flex: 0 0 $spacing9;
+              background-color: $bs-light;
+              border-radius: $spacing2;
+              border: calc(1/16 * 1rem) solid $bs-grey;
+              &:hover{
+                @include EventsMainPod0Btn0;
+              }
+            }
+            &1{
+              @include GlobalButton0;
+              background: transparent;
+              margin: $spacing4 0 0 0;
+              label{
+                color: $bs-dark;
+                font-size: $fontSize2;
+              }
+
+            }
+            &2{
+              @include GlobalButton0;
+              background: $bs-dark;
+              padding:$spacing5;
+              margin: $spacing4 0 0 0;
+              flex: 0 0 100%;
+              *{
+                color:$bs-light !important;
+                font-size: $fontSize2 !important;
+              }
+              label{
+                margin: 0  $spacing3;
+
+              }
+            }
+            &3{
+              @include GlobalButton0;
+              background: $bs-grey;
+              padding:$spacing3;
+              margin: $spacing4 0 0 0;
+
+              *{
+                color:$bs-light !important;
+                font-size: $fontSize1 !important;
+              }
+              label{
+                margin: 0  $spacing3;
+
+              }
+            }
+          }
+          &Text {
+            &0 {
+              color:$bs-dark !important;
+            }
+            &1{
+              color: $bs-tertiary;
+            }
+          }
+          &Item {
+            &0 {
+              flex: 0 0 20%;
+              width: 100%;
+              border-radius: calc(5/16 * 1rem) calc(5/16 * 1rem) 0 0;
+              background-color: transparentize($color: $bs-tertiary, $amount: .2);
+            }
+            &1 {
+              flex: 0 0 80%;
+              width: 100%;
+              border-radius: 0 0 calc(5/16 * 1rem) calc(5/16 * 1rem) ;
+              background-color: transparentize($color: $bs-light, $amount: .2);
+            }
+            &2{
+              position: absolute;
+              inset: 0;
+              padding:$spacing8;
+              display: flex;
+
+            }
+            &3{
+              flex: 0 0 66%;
+              display: flex;
+              flex-flow:column;
+              overflow: auto;
+            }
+            &4{
+              padding:$spacing3;
+              min-width: $spacing14;
+            }
+            &5{
+              height: 100%;
+              @include FlexCenterColumn;
+              padding:0;
+            }
+            &6{
+              flex: 0 0 30%;
+              width: 100%;
+              border-bottom: calc(1/16 * 1rem) solid $bs-dark;
+              display: flex;
+              align-items: center;
+              padding: $spacing3;
+              * {
+                color:$bs-tertiary;
+
+              }
+              p{
+                font-size: calc(12/16 * 1rem);
+              }
+            }
+            &7{
+              flex: 1 0 auto;
+              width: 100%;
+              background : url("/assets/media/shared/event_card_background.png");
+              background-color: lighten($color: $bs-grey, $amount: 60);
+              display: flex;
+              padding: $spacing2 $spacing4;
+              justify-content: space-between;
+            }
+            &8{
+              margin: 0 $spacing5 0 0;
+            }
+            &9{
+              display: flex;
+              flex-direction: column;
+              align-items: flex-end;
+            }
+
+
+            &10{
+              flex: 0 0 33%;
+              padding:$spacing3;
+            }
+            &11{
+              height: 100%;
+              background-color: lighten($color: $bs-grey, $amount: 60);
+              @include FlexCenterColumn;
+            }
+            &12{
+              @include FlexCenterColumn;
+              overflow:auto;
+              flex: 1 0 auto;
+              width: 100%;
+
+            }
+            &13{
+              width: 100%;
+              display: flex;
+            }
+
+          }
+          &Img {
+            &0 {
+              font-size: $fontSize2;
+              margin: 0 $spacing2 0 0;
+            }
+            &1{
+              color: $bs-dark;
+            }
+            &2{
+              max-width: $spacing15;
+            }
+          }
+          &StrikeThru{
+            &0 {
+              border:calc(1/16 * 1rem) solid $bs-grey;
+              height: 100%;
+              flex: 0 0 calc(1/16 * 1rem);
+              margin: 0  $spacing4;
+            }
+
+          }
+        }
+      }
+    }
+  }
+
+}

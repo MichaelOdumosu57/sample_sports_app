@@ -1,0 +1,13 @@
+{
+  "name": "wml-file-manager",
+  "version": "0.0.1",
+  "peerDependencies": {
+    "@angular/common": ">14.0.0",
+    "@angular/core": ">14.0.0",
+    "@ngx-translate/core": ">14.0.0",
+    "@ngx-translate/http-loader": ">7.0.0"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  }
+}

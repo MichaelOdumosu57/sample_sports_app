@@ -1,0 +1,25 @@
+@import "../styles.scss";
+:host {
+
+
+  &.WmlDropdownSampleView{
+    display: block;
+    .WmlDropdownSample{
+      &Main{
+        &Pod{
+          background-color: $bs-light;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          min-height: calc(32/16 * 1rem);
+          border:calc(1/16 * 1rem) solid $bs-dark;
+        }
+      }
+      &Pod{
+
+        &0{}
+      }
+    }
+  }
+
+}

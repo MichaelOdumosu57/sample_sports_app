@@ -1,0 +1,20 @@
+<nav [class]="classPrefix('MainPod')">
+  <section [class]="classPrefix('Pod0')"></section>
+  <section [class]="classPrefix('Pod1')">
+    <ng-container *ngFor="let item of navCircles">
+      <div [class]="classPrefix('Pod1Item2')" *ngIf="item.type === 'btn' && item.isPresent">
+        <button (click)="item.click && item.click($event)" [attr.aria-label]="item.text | translate"  [class]="item.class ?? classPrefix('Pod1Btn2')">
+          <label>{{item.text | translate}}</label>
+        </button>
+        <wml-dropdown [params]="item.dropdown" [class]="classPrefix('Pod1Dropdown0')" *ngIf="item.dropdown.isPresent"></wml-dropdown>
+      </div>
+      <div [class]="classPrefix('Pod1Item3')" *ngIf="item.type === 'circle' && item.isPresent">
+        <button (click)="item.click && item.click($event)" [attr.aria-label]="item.text | translate"  [class]="item.class ?? classPrefix('Pod1Btn2')">
+          <label>{{item.text | translate}}</label>
+        </button>
+        <wml-dropdown [params]="item.dropdown" [class]="classPrefix('Pod1Dropdown0')" *ngIf="item.dropdown.isPresent"></wml-dropdown>
+      </div>
+      <div *ngIf="item.type === 'divider' && item.isPresent" [class]="classPrefix('Pod1Item1')"></div>
+    </ng-container>
+  </section>
+</nav>

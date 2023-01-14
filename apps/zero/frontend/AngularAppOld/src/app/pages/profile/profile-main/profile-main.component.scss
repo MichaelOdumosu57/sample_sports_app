@@ -1,0 +1,93 @@
+
+@import "src/assets/styles/global.scss";
+
+
+:host {
+
+
+  &.ProfileMainView{
+    display: block;
+
+
+    .ProfileMain{
+      &Main{
+        &Pod{
+          @include MainPodCssRule1;
+          padding: $spacing10 0;
+          width: 90%;
+          background: $team-card;
+          mat-card  {
+            background: $bs-primary-gradient;
+            * {
+              color:$bs-light;
+            }
+          }
+        }
+      }
+      &Pod{
+        @for $i from 0 through 1 {
+          &#{$i} {
+            padding: 0 $spacing6;
+          }
+        }
+        &0{
+          flex: 0 0 40%;
+          @include pageLayout1;
+          &Item {
+            &0 {
+              width: 100%;
+              margin:  0 0 $spacing6 0 ;
+            }
+          }
+
+
+
+        }
+        &1{
+          flex: 0 0 60%;
+          &Btn {
+            &0 {
+              align-self: flex-end;
+              label{
+                font-size: $fontSize2;
+              }
+            }
+          }
+          &Text {
+            &0 {
+              text-align: center;
+            }
+          }
+
+          &Item {
+            &0 {
+              margin:  0 0 $spacing6 0 ;
+              display: flex;
+              align-items: center;
+            }
+            &1 {
+              display: flex;
+              flex-flow: row wrap;
+              padding: $spacing5 $spacing9;
+
+              * {
+                flex: 0 0 100%;
+              }
+            }
+            &2{
+              @include pageLayout1;
+            }
+          }
+          &Img {
+            &0 {
+              width: calc(96/16 * 1rem);
+              height: auto;
+              margin:0 $spacing5 0 0;
+            }
+          }
+        }
+      }
+    }
+  }
+
+}

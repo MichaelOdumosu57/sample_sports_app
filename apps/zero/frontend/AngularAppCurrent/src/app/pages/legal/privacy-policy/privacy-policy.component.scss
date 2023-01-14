@@ -1,0 +1,51 @@
+
+@import "src/assets/styles/global.scss";
+
+
+:host {
+
+
+  &.PrivacyPolicyView{
+    display: block;
+    .PrivacyPolicy{
+      &Main{
+        &Pod{
+          @include pageLayout1;
+          align-items: flex-start;
+          padding:$spacing5 $spacing10;
+          background-color: $bs-light;
+          margin: auto;
+          max-width: $pageMaxWidth;
+          h1{
+            align-self: flex-start;
+            font-size: $fontSize4;
+          }
+        }
+        &Text {
+          &0 {
+            margin: $spacing8 0 0 0;
+          }
+          &1 {
+            margin: $spacing5 0 0 0;
+          }
+          &2 {
+            margin: 0  0 0 $spacing8;
+          }
+        }
+
+      }
+      &Pod{
+
+        @for $i from 0 through 1 {
+          &#{$i} {
+            width: 100%;
+            max-width: $pageMaxWidth;
+          }
+        }
+
+        &0{}
+      }
+    }
+  }
+
+}

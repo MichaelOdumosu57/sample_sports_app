@@ -1,0 +1,17 @@
+<div [class]="classPrefix('MainPod')">
+  <h1>{{"signUp.title" | translate}}</h1>
+  <section [class]="classPrefix('Pod0')">
+    <div [class]="classPrefix('Pod0Item0')">
+      <wml-form [fields]="signUpForm.fields"></wml-form>
+      <button (click)="signUpBtn.click($event)">
+        <label>{{signUpBtn.value |translate}}</label>
+      </button>
+    </div>
+    <div [class]="classPrefix('Pod0Item1')">
+      <button [class]="classPrefix('Pod0Btn0')" (click)="btn.click($event)" *ngFor="let btn of socialMediaLoginBtns">
+        <img [src]="btn.iconSrc" [alt]="btn.iconAlt | translate " >
+        <label>{{btn.value |translate}}</label>
+      </button>
+    </div>
+  </section>
+</div>

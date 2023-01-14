@@ -1,0 +1,35 @@
+@import "src/assets/styles/global.scss";
+
+
+:host {
+
+
+  &.OverlayLoadingView{
+    .OverlayLoading{
+      &Main{
+        &Pod{
+          background-color: transparentize($color: $bs-primary, $amount: 0.7);
+          position: absolute;
+          display: flex;
+          flex-direction: column;
+          inset:0;
+          width: 100vw;
+          height: 100vh;
+          justify-content: center;
+          align-items: center;
+        }
+        &Text {
+          &0 {
+            font-size: $fontSize3;
+            margin: 0 0 $spacing5 0;
+            text-align: center;
+          }
+        }
+      }
+      &Pod{
+        &0{}
+      }
+    }
+  }
+
+}

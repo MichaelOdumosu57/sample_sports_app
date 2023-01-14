@@ -1,0 +1,29 @@
+
+$bs-primary: black;
+:host {
+
+
+  &.WmlPopupView{
+    width: 100%;
+    height: 100%;
+    background-color: transparentize($color: $bs-primary, $amount: 0.5);
+    .WmlPopup{
+      &Main{
+        &Pod{
+          width: 100%;
+          height: 100%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+      }
+      &Pod{
+        &0{
+          width: 80%;
+          height: 80%;
+        }
+      }
+    }
+  }
+
+}

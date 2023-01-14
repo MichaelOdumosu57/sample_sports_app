@@ -1,0 +1,42 @@
+
+@import "src/assets/styles/global.scss";
+
+
+:host {
+
+
+  &.CollegiateSignupMainView{
+    display: block;
+    .CollegiateSignupMain{
+      &Main{
+        &Pod{
+          @include MainPodCssRule0;
+
+
+        }
+
+      }
+      &Pod{
+
+        &0{
+          background-color:transparentize($bs-dark,.4);
+          @include FlexCenterColumn;
+          *{
+            color: $bs-light;
+          }
+          h1{
+            margin:0 0 $spacing5 0;
+          }
+
+          &Btn {
+            &0 {
+              @include GlobalButton0;
+              align-self: flex-end;
+            }
+          }
+        }
+      }
+    }
+  }
+
+}

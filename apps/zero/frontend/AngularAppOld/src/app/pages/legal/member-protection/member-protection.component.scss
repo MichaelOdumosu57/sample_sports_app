@@ -1,0 +1,43 @@
+
+@import "src/assets/styles/global.scss";
+
+
+:host {
+
+
+  &.MemberProtectionView{
+    display: block;
+    .MemberProtection{
+      &Main{
+        &Pod{
+          @include pageLayout1;
+          align-items: flex-start;
+          width: 90%;
+          margin: auto;
+          max-width: $pageMaxWidth;
+          h1{
+            align-self: center;
+          }
+          &Text {
+            &0 {
+              margin: $spacing8 0 0 0;
+            }
+            &1 {
+              margin: $spacing5 0 0 0;
+            }
+            &2 {
+              margin: 0  0 0 $spacing8;
+            }
+          }
+        }
+      }
+      &Pod{
+
+
+
+        &0{}
+      }
+    }
+  }
+
+}

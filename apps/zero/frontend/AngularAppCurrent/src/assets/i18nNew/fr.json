@@ -1,0 +1,72 @@
+{
+    "collegiateSignupMain": {
+        "backdropImgAlt": "Terrain de sports scolaires",
+        "title": "Formulaire de demande d'acc\u00e9l\u00e9rateur de parrainage universitaire / coll\u00e9gial / lyc\u00e9e",
+        "fields": {
+            "email": {
+                "label": "E-mail"
+            },
+            "customerStatus": {
+                "label": "\u00cates-vous un client nouveau ou existant?",
+                "options": [
+                    "je suis un nouveau client",
+                    "Je suis un client existant"
+                ]
+            },
+            "profileName": {
+                "label": "Nom de profil",
+                "sublabels": [
+                    "Merci de saisir votre pr\u00e9nom et votre nom"
+                ]
+            },
+            "teamName": {
+                "label": "Quel est le nom de l'\u00e9cole ou le nom de l'\u00e9quipe que vous commencez?"
+            },
+            "startupStage": {
+                "label": "Quelle est la sc\u00e8ne de votre \u00e9quipe ou de votre org de club de d\u00e9marrage?(Expliquer en d\u00e9tail)",
+                "sublabels": [
+                    "Choisissez la taille et le nombre par couleur"
+                ]
+            },
+            "employeeCount": {
+                "label": "Nombre d'employ\u00e9s?"
+            },
+            "atheleticPlayers": {
+                "label": "Nombre de joueurs sportifs d'\u00e9quipe?",
+                "sublabels": [
+                    "(Montant de pr\u00e9f\u00e9rence minimum 7 - 14)"
+                ]
+            },
+            "socialMediaHandles": {
+                "label": "Club Social Media Gandles"
+            },
+            "fundingAmnt": {
+                "label": "Montant de financement de d\u00e9marrage ou prestations de parrainage?",
+                "options": [
+                    "Approbation",
+                    "5 000,00 $ - 10 000,00 $",
+                    "20 000,00 $",
+                    "50 000 $",
+                    "100 000 $ - 500 000,00 $",
+                    "1 000 000 $ +",
+                    "Je ne sais pas encore"
+                ]
+            },
+            "preferredContact": {
+                "label": "M\u00e9thode de contact pr\u00e9f\u00e9r\u00e9e",
+                "options": [
+                    "T\u00e9l\u00e9phoner",
+                    "E-mail",
+                    "Linkedin.com"
+                ]
+            },
+            "teamLogo": {
+                "label": "Le logo de votre \u00e9quipe?"
+            },
+            "pitchDeck": {
+                "label": "Ponts universitaires / coll\u00e8ges / lyc\u00e9s, liens de pitch ou pr\u00e9sentation?"
+            }
+        },
+        "submit": "Soumettre"
+    }
+}

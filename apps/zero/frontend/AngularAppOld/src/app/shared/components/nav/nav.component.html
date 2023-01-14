@@ -1,0 +1,76 @@
+<nav [class]="classPrefix('MainPod')">
+  <div [class]="classPrefix('Pod0')">
+    <div [class]="classPrefix('Pod0Item0')">
+      <ul [class]="classPrefix('Pod0Item4')">
+        <li *ngFor="let button of firstRowButtons">
+          <button
+            [class]="button.buttonClass ?? classPrefix('Pod0Button0')"
+            (click)="button.click($event)"
+          >
+            <img
+              *ngIf="button.iconIsPresent"
+              [src]="button.iconSrc"
+              [alt]="button.iconAlt"
+            />
+            <label>{{ button.value | translate }}</label>
+          </button>
+        </li>
+      </ul>
+    </div>
+    <div [class]="classPrefix('Pod0Item1')">
+      <div [class]="classPrefix('Pod0Item2')">
+        <ul [class]="classPrefix('Pod0List0')">
+          <li
+            [class]="classPrefix('Pod0Text0')"
+            *ngFor="let item of mainNavItems"
+          >
+            <a [href]="item.route">{{ item.value | translate }}</a>
+          </li>
+        </ul>
+      </div>
+      <img
+        routerLink="/"
+        [class]="classPrefix('Pod0Img0')"
+        [src]="'assets/media/logo_0.png'"
+        alt="'global.logoImgAlt' | translate"
+      />
+      <img
+        [class]="classPrefix('Pod0Img2')"
+        (click)="mobileNavMenuIcon.click($event)"
+        [src]="mobileNavMenuIcon.src"
+        [alt]="mobileNavMenuIcon.alt | translate"
+        [attr.aria-label]="mobileNavMenuIcon.ariaLabel | translate"
+        [attr.aria-expanded]="
+          (baseService.toggleMobileNavSubj | async) ??
+          mobileNavMenuIcon.ariaExpanded
+        "
+      />
+      <div [class]="classPrefix('Pod0Item3')">
+        <!-- <span
+          *ngIf="accountService.profile.populated"
+          [class]="classPrefix('Pod0Text1')"
+        >
+          <img
+            [class]="classPrefix('Pod0Img1')"
+            [src]="'assets/media/nav_0.svg'"
+            [alt]="'global.logoImgAlt' | translate"
+          />
+          {{ "nav.midRight.acct" | translate }}
+        </span> -->
+        <ul [class]="classPrefix('Pod0List0')">
+          <ng-container *ngFor="let item of navItemsOne">
+            <li *ngIf="item.isPresent" [class]="classPrefix('Pod0Text0')">
+              <a  *ngIf="item.type ==='link'" [ngStyle]="item.style" [href]="item.route">{{
+                item.value | translate
+              }}</a>
+              <a *ngIf="item.type ==='action'" [ngStyle]="item.style" (click)="item.click($event)">{{
+                item.value | translate
+              }}</a>
+            </li>
+          </ng-container>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div [class]="classPrefix('Pod1')"></div>
+</nav>

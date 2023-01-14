@@ -1,0 +1,69 @@
+
+@import "src/assets/styles/global.scss";
+
+
+:host {
+
+
+  &.HomeMainView{
+    display: block;
+    height: 100%;
+    .HomeMain{
+      &Main{
+        &Pod{
+          @include MainPodCssRule0;
+          height: 70%;
+
+
+        }
+      }
+      &Pod{
+
+        &0{
+          flex: 1 0 100%;
+          width: 80% !important;
+          display: flex;
+
+          &Item {
+            &0 {
+              flex: 0 0 80%;
+              padding:$spacing5;
+              height: 100%;
+            }
+          }
+
+          &Icon {
+            &0 {
+              @include FlexCenterColumn;
+              justify-content: center;
+              i{
+                font-size: $fontSize5;
+              }
+            }
+          }
+        }
+        &1{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          &Item {
+            &0 {
+              padding:$spacing3;
+              border:calc(1/16 * 1rem) solid $bs-dark;
+              border-radius: 100%;
+              margin:0 calc(40/16 * 1rem) 0 0;
+              label{
+                font-size: $fontSize3;
+              }
+            }
+            &1{
+              background-color: $bs-danger;
+            }
+          }
+        }
+
+      }
+    }
+  }
+
+}

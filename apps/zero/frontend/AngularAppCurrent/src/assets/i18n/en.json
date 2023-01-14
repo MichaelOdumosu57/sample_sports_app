@@ -1,0 +1,515 @@
+{
+  "global":{
+    "website":"NIBLSCoin",
+    "logoImgAlt":"NIBLS inc. COIN",
+    "errorRequired":"This field is required",
+    "errrorMin0":"At least one value must be provided",
+    "avatarImgAlt":"Avatar Img",
+    "wmlChipsplaceholder":"Type your value then press enter to see it appear",
+    "wmlChipsuserInputsAriaLabel" :"User Inputs",
+    "wmlChipsremoveChipAriaLabel" : "remove",
+    "fillOutForm":"Please fill out all required fields",
+    "loginAgain":"Please login again to continue using your account",
+    "logoutError":"There was an issue while trying to log you out of your account please try again or contact support if the issue persists"
+  },
+  "notFound":{
+    "lines":[
+      "404",
+      "Whoops! This is not what you were looking for",
+      "But you just found the ball we'd lost, thanks. Try your luck by going back to the home page."
+    ],
+    "someImgAlt":"Tech Ball"
+  },
+  "app":{
+    "overlayLoading":"Loading ...",
+    "siteUnderConstruction":"Site Under Construction"
+  },
+  "defaultNav":{
+    "share":"SHARE",
+    "profile":"PROFILE",
+    "logout":"LOG OUT",
+    "lang":{
+      "label":"LANGUAGE",
+      "options":[
+        "Arabic","German","English","Spanish","Japanese","Ukranian","Mandarin","French","Hindi"
+      ]
+    },
+    "login":"LOGIN",
+    "register":"JOIN CLUB"
+  },
+  "defaultBetslip":{
+    "betSlipTabText":"BETSLIP",
+    "myBetsTabText":"MY BETS"
+  },
+  "defaultNavShare":{
+    "title":"Share On"
+  },
+  "defaultAside":{
+    "logoImgAlt":"NIBLS inc. COIN logo",
+    "routes":{
+      "home":"Home",
+      "mall":"Shopping Mall",
+      "events":"Events",
+      "signUp":"Collegiate Signup",
+      "football":"Football",
+      "niblsball":"Tech+Ball",
+      "teamHandball":"Team Handball",
+      "rubgy":"Rugby"
+    }
+  },
+  "defaultFooter":{
+    "security":{
+      "title":"SECURITY & PRIVACY",
+      "items":[
+        "Privacy Policy",
+        "Membership Protection",
+        "Intellectual Property Rights"
+      ]
+    },
+    "contact":{
+      "title":"CONTACT & INFO",
+      "items":[
+        "Contact Us On Linkedin",
+        "Company Pitch Deck Link",
+        "Official NIBLS Coin Investor Presentation.pdf",
+        "Whitepapers - NIBLS Coin - Seeking $1.2M & Asking $250K.pdf"
+      ]
+    }
+  },
+  "profileMain":{
+    "wmlNotify":{
+      "updateProfileSuccess":"Profile Successfully Updated",
+      "updateProfileFail":"There was an error updating your profile please contact customer support if the issue persists"
+    },
+    "avatarImgAlt":"Avatar Img",
+    "profileOptions":[
+      {
+        "title":"Account Settings",
+        "subTitle":"View Account Information"
+      },
+      {
+        "title":"Connected Wallets",
+        "subTitle":"View Connected Wallets"
+      }
+    ],
+    "basicDemographic":{
+      "title":"User Information",
+      "fields":{
+        "firstName":{
+          "label":"First Name"
+        },
+        "lastName":{
+          "label":"Last Name"
+        },
+        "address":{
+          "label":"Address"
+        },
+        "city":{
+          "label":"City"
+        },
+        "state":{
+          "label":"State"
+        },
+        "zipcode":{
+          "label":"Zipcode"
+        },
+        "country":{
+          "label":"Country"
+        }
+      },
+      "updateBtn":"Update"
+    }
+  },
+  "niblsBallMain":{
+    "backdropImgAlt":"backdrop",
+    "eventCard":{
+      "sportName":"Tech+Ball"
+    },
+    "yourPicks":{
+      "title":"Your Picks",
+      "noPredict":"No Prediction Made",
+      "submit":"Submit Bets"
+    }
+  },
+  "collegiateSignupMain":{
+    "wmlNotify":{
+      "submitFormSuccess":"Form Submitted Successfully, we will contact you with next steps",
+      "submitFormFail":"There was an issue in submitting this form, please try again later or contact support if the issue persists"
+    },
+    "backdropImgAlt":"School Sports Field",
+    "title":"University/Collegiate/High School Sponsorship Accelerator Request Form",
+    "fields":{
+      "email":{
+        "label":"Email"
+      },
+      "linkedin":{
+        "label":"Linkedin"
+      },
+      "phone":{
+        "label":"Phone"
+      },
+      "customerStatus":{
+        "label":"Are you a new or existing customer?",
+        "options":[
+          "I am a new customer",
+          "I am an existing customer"
+        ]
+      },
+      "profileName":{
+        "label":"Profile name",
+        "sublabels":[
+          "Please enter first and last name"
+        ]
+      },
+      "teamName":{
+        "label":"What's the name of the school or name of the team you are starting?"
+      },
+      "startupStage":{
+        "label":"What's the stage of your startup club team or org? (Explain in detail)",
+        "sublabels":[
+          "Choose size and number per color"
+        ]
+      },
+      "employeeCount":{
+        "label":"Numbers of employees?"
+      },
+      "atheleticPlayers":{
+        "label":"Number of team athletic players?",
+        "sublabels":[
+          "(Minimum Preferred amount 7 - 14)"
+        ]
+      },
+      "socialMediaHandles":{
+        "label":"Club Social Media Handles",
+        "suggestions":[
+          "facebook.com",
+          "linkedin.com",
+          "instagram.com",
+          "reddit.com",
+          "tumblr.com"
+        ]
+      },
+      "fundingAmnt":{
+        "label":"Startup funding amount or sponsorship benefits?",
+        "options":[
+          "Endorsement",
+          "$5,000.00 - $10,000.00",
+          "$20,000.00",
+          "$50,000.00",
+          "$100,000.00 - $500,000.00",
+          "$1,000,000.00+",
+          "Don't Know Yet"
+        ]
+      },
+      "preferredContact":{
+        "label":"Preferred contact method",
+        "options":[
+          "Phone",
+          "Email",
+          "Linkedin.com"
+        ]
+      },
+      "teamLogo":{
+        "label":"Your team logo?"
+      },
+      "pitchDeck":{
+        "label":"University/College/High School Decks, Pitch links, or Presentation?"
+      }
+    },
+    "submit":"Submit"
+  },
+  "eventsMain":{
+    "wmlNotify":{
+      "downloadMetamaskWallet":"Download Metamask Wallet",
+      "installWallet":"Please use the link presented to add the blockchain wallet to your browser",
+      "walletSuccessAdded":"Wallet Sucessfully Added",
+      "loadRecordsError":"There was an error loading events",
+      "stopTryingToLoadRecordsError":"The application was unable to load any events, please try again later"
+    },
+    "events":{
+      "name":"NIBLS Event",
+      "eventbritePurchase":"View on Eventbrite",
+      "herePurchase":"Continue To Purchase"
+    },
+    "wallet":{
+      "title":"Choose Wallet",
+      "metamask":{
+        "title":"Metamask Wallet"
+      },
+      "coinbase":{
+        "title":"Coinbase Wallet"
+      }
+    }
+  },
+  "purchaseEvent":{
+    "wmlNotify":{
+      "purchaseTicketSubmitFormFail":"The ticket was purchased but you may not get an email confirmation but it was saved,please provide your information at reception",
+      "purchaseTicketNeedMoreFunds":"Insufficient balance please fill your wallet and try again",
+      "purchaseTicketError":"There was an error while trying to purchase a ticket, please try again later or contact support if the issue persists",
+      "purchaseTicketSuccess":"Ticket sucecessfully purchased. Check your email for confirmation.",
+      "fillOutForm":"Please fill out all required fields",
+      "selectAWallet":"Please select a wallet before continuing to make a purchase"
+    },
+    "title":"You need to Buy Tickets?",
+    "subTitle":"Fill the details below accurately and we will contact you soon .",
+    "fields":[
+      {
+          "label": "Name",
+          "errorRequired": "A Name is required"
+      },
+      {
+          "label": "Email",
+          "errorRequired": "A Email is required"
+      },
+      {
+          "label": "Organization",
+          "errorRequired": "A Organization is required"
+      },
+      {
+          "label": "Are you a collegiate student or Graduate? If so what school? what did you study?",
+          "errorRequired": "A Are you a collegiate student or Graduate? If so what school? what did you study? is required"
+      },
+      {
+          "label": "Other social media handles",
+          "errorRequired": "A Other social media handles is required"
+      },
+      {
+          "label": "Do you play sports? If so what sports? ",
+          "errorRequired": "A Do you play sports? If so what sports?  is required"
+      },
+      {
+          "label": "Are you An Early-stage or later stage Investor, VC, or Angel?",
+          "errorRequired": "A Are you An Early-stage or later stage Investor, VC, or Angel? is required"
+      },
+      {
+          "label": "Are you an active investor?  And what industries do you invest in?",
+          "errorRequired": "A Are you an active investor?  And what industries do you invest in? is required"
+      },
+      {
+          "label": "List your LinkedIn professional profile",
+          "errorRequired": "A List your LinkedIn professional profile is required"
+      },
+      {
+          "label": "Phone number",
+          "errorRequired": "A Phone number is required"
+      },
+      {
+          "label": "Terms",
+          "errorRequired": "This box must be checked",
+          "checkBoxDesc":"I accept the terms and conditions"
+      }
+    ],
+    "quantity":"Quantity",
+    "price":"Price",
+    "total":"Total",
+    "ticketField":{
+      "errorRequired":"A quantity is requred",
+      "errorMin":"The quantity must be greater than 1"
+    },
+    "submit":"Submit"
+  },
+  "memberProtection":{
+    "title":"Membership Protection",
+    "sections":[
+      "Members Protection Policy and Responsible Gaming",
+      "The Company or “we” “us” or “our” (as defined in the “Terms of Service”) provides our users with a responsible sports trading environment on the Site (as defined in the Terms of Service). Not only is it our mission to provide our members with the most entertaining sports skills performance gaming statistics for trading experience but it is also our duty to help prevent compulsive usage of and underage access to our NIBLS Intelligent portfolio application gaming products. We are committed to responsible sports trading or gaming.",
+      [
+        "If you have a gambling problem and want help, call ",
+        "1-800-522-4700",
+        "1-800-Gambler (426-2537)",
+        "24/7 Assistance You can also text “SUPPORT” to 53342"
+      ],
+      "Protection of Minors",
+      "In line with the state regulation, anyone under the age of 21 (“Minors”) is forbidden to play on our Site.In New York, it is unlawful for any individual who is a Minor to engage in sports gambling.",
+      "Nevertheless, we recognize that the internet is readily accessible in many homes around the world. As a result, gaming companies and parents must work together to protect Minors from underage gambling. To ensure the safety of Minors, we recommend installing filtering software to block Minors from accessing certain websites and programs.",
+      "Below are links to some such providers and software:",
+      [
+        "Cyber Patrol",
+        "GamBlock",
+        "NetNanny",
+        "Gamban"
+      ],
+      "Tips for parents:",
+      "Do not leave Minors unattended near your computer when the software is running. You must take exceptional care to ensure that they do not access our services via your devices.",
+      "Protect your gambling programs with password access.",
+      "Do not allow Minors to participate in any gambling activity",
+      "Keep your username, password and deposit method details out of the reach of children.",
+      "Educate your children about the illegality and the potential damage of underage gambling.",
+      "Limit the length of time your children spend online.",
+      "Take particular care regarding the use by minors of facilities such as mobile devices.",
+      "Unfortunately, no system is foolproof. If you know a person under the age of 21 who is registered with us, please notify us at support@NIBLSInc771.onmicrosoft.com ",
+      "Your Password",
+      "To change your password: Log into your account>you must select My Account from the Menu>click My Account>choose your password> answer the security question correctly>click Save Changes. ",
+      "If you forget your password and you wish to reset it: Go to the login screen>select “Forgot/Change Password”>insert your email address which you use to log into your account> you will receive an email which contains a link to reset your password.",
+      "Account Security",
+      "It is your responsibility to configure your client terminal’s auto-lock feature to protect your client terminal from unauthorized use.",
+      "We provide you with tools to aid you in identifying any unauthorized use of your account with the Site:",
+      "You can generate an Account Statement Report from the My Account page.",
+      "You can view the last time your account was logged into via the Lobby of the Site.",
+      "If you believe or suspect that there has been any unauthorized access or use of your account, you will be able to receive the IP address of the last log in to your account by contacting support@NIBLSInc771.onmicrosoft.com",
+      "Account and Bet History",
+      "If you wish to view the results of the bets you have placed choose “My Bets”. In order to receive reports with respect to your transaction and game play detail, select “Account Statement”.",
+      "Potential Risks Associated with Gambling",
+      "Gambling may impact your life and that of your friends and family. We have listed some examples of the risks linked gambling below",
+      [
+        "Using gambling to divert attention from problems and stress",
+        "Increased stress and anxiety",
+        "Using gambling as an escape from problems.",
+        "Hiding gambling away from others",
+        "Chasing losses",
+        "Using gambling to provide an adrenaline rush.",
+        "Not being able to stop gambling.",
+        "Neglecting your family and friends."
+      ],
+      "Advice and Help",
+      "If you or someone you know is experiencing the addiction of compulsive gambling, you may seek help and advice from:",
+      [
+        "call 1-800-522-4700",
+        "National Council on Problem Gambling",
+        "Preventing Compulsive Gambling"
+      ],
+      "We recognize that while most people gamble for entertainment, a small number of people can become obsessed with the potential monetary gains. We have implemented measures to help address this problem:",
+      [
+        "On the Site you can set your Deposit Limits, Wager Limit and Playing Time Limit or a combination of them (please see below",
+        "You can Self Exclude from the Site (please see below)"
+      ],
+      "Remember:",
+      "Gambling is a form of entertainment. It is not a way to get rich quickly and pay off your debts.",
+      "There are no formulas that guarantee winnings",
+      "Make sure that the decision to gamble is your choice",
+      "Never try to chase your losses.",
+      "Check the amounts you spend on a regular basis in the Cashier",
+      "Like many things, what is enjoyable in moderation can be disastrous in excess.",
+      "Play Responsibly - Setting Limits",
+      "We provide you with tools so that you can manage your gambling. Please note that we may also impose limitations on your gambling. In such an event the more restrictive limitation will apply.",
+      "1. Deposit Limits - You can set a limit as to how much you can deposit on the Site for the following rolling time periods:",
+      [
+        "24 hours",
+        "7 days",
+        "30 days"
+      ],
+      "Depending on the Deposit Limit which you have set, the Deposit Limit will be determined by reviewing the past 24 hours, 7 days or 30 days (as applicable)",
+      "In order to set the Deposit Limit or adjust the Deposit Limit which you have already set, you can use either of the following methods",
+      [
+        "From the My Account page> click Responsible Gaming Tab> click Deposit ",
+        "From the Cashier Page> click your avatar> click Personal Limits"
+      ],
+      "You will receive a pop-up notification which you will have to confirm for the Deposit Limit to apply.",
+      "Unless you adjust the Deposit Limit or remove the Deposit Limit, the Deposit Limit which you have set will automatically renew",
+      "Increasing and Decreasing Any of Your Deposit Limits: If you decrease any of the Deposit Limits which you have set, such decrease will be applied immediately. If you increase any of the Deposit Limits which you have set, such increase will come into force within 24 hours.",
+      "A pop-up notification will appear when you reach the Deposit Limit which you have set. Once you have reached the Deposit Limit which you have set, you may not make any further deposits into your account.",
+      "2. Wager Limit - You can set a limit on the maximum amount you can wager for the following periods (or a combination of the following periods):",
+      [
+        "Calendar Day",
+        "Calendar Week",
+        "Calendar Month"
+      ],
+      "Time Period of the Relevant Limit",
+      "The Calendar Day Wager Limit: The Calendar Day Wager Limit begins at 12am on the calendar day that such Wager Limit comes into force and ends on the same calendar day at 11:59 pm. ",
+      "Calendar Week Wager Limit: The Weekly Wager Limit begins at 12am on the Monday of the calendar week that such Wager Limit comes into force and ends on the Sunday of the same calendar week at 11:59 pm",
+      "Calendar Month Wager Limit: The Monthly Wager Limit begins at 12am on first calendar day of the calendar month that such Wager Limit comes into force and ends on the final day of the calendar month at 11:59pm.",
+      "In order to set the Wager Limit or adjust the Wager Limit, from the My Account Page> click Responsible Gaming Tab> click Wager Limits> set/adjust the Wager Limit which applies",
+      "Unless you adjust the Wager Limit or remove the Wager Limit, the Wager Limit which you have set will automatically renew",
+      "Increasing and Decreasing Any of Your Wager Limits: If you decrease any of the Wager Limits which you have set, such decrease will be applied the next time you log-in to your account. If you increase any of the Wager Limits which you have set, such increase will come into force within 24 hours.",
+      "A pop-up notification will appear when you reach the Wager Limit which you have set. Once you have reached the Wager Limit which you have set, you may not make any further wagers through your account",
+      "If you request to increase any of your Wager Limits multiple times during the relevant Wager Limit period set, the latest request to increase your Wager Limit will come into within 24 hours. ",
+      "3. Playing Time Limit - You can set a limit on the time you spend on the Site per calendar day.",
+      "In order to set the Playing Time Limit or adjust the Playing Time Limit: From the My Account Page> click Responsible Gaming Tab> click Playing Time Limits> insert/adjust the Playing Time Limit>click Update Limit.",
+      "Unless you adjust the Playing Time Limit or remove the Playing Time Limit, the Playing Time Limit which you have set will automatically renew. ",
+      "Initial Setting of the Playing Time Limit: When you first set the Playing Time, such Playing Time Limit will come into force on the calendar day",
+      "Increasing and Decreasing Playing Time Limits: If you decrease the Playing Time Limit which you have set, such decrease will come into force when you next log-in to your account. If you increase the Playing Time Limit which you have set, such increase will come into force when you next log-in to your account on the calendar day after the calendar day in which you have increased the Playing Time Limit",
+      "A pop-up notification will appear when you reach the Playing Time Limit which you have set, and you will be automatically logged-out of your account.",
+      "Self-Exclusion",
+      [
+        "One Year",
+        "Five Years",
+        "Lifetime"
+      ],
+      "In order to self-exclude through the Site, from the My Account Page> click Responsible Gaming Tab> click Request Self Exclusion> this will lead to the Cashier where you will be able to select the period that you would like to self-exclude for> then click submit. You will then be logged off from the Site.",
+      "You may not place any new wagers with the Site once you have self-excluded. However, during the self exclusion period which you have set, you may withdraw your remaining bankroll provided that that the funds have cleared, and that the reason(s) for exclusion would not prohibit a withdrawal from your bankroll",
+      "Please note that if you have self-excluded from the Site for Lifetime, you may request to revoke the Lifetime self-exclusion after at least one year has passed from when the Lifetime self-exclusion was set, by contacting support@NIBLSInc771.onmicrosoft.com.",
+      "Once you have self-excluded through the Site, we will:",
+      [
+        "Block your account.",
+        "Block any new accounts you attempt to open with the Site when we detect them"
+      ],
+      "During your period of self-exclusion, we will take all reasonable measures to ensure you do not receive any promotional material from us.",
+      "Push Notifications",
+      "In the event that you download any of our applications to your device or directly from the Site to your device and you agree to receive push notifications, if you wish to stop such notifications being sent to you must do this through the relevant device or by deleting the application. However, we will stop your receipt of push notifications if you Self-Exclude from the Site"
+    ]
+  },
+  "privacyPolicy":{
+    "title":"Privacy Policy",
+    "sections":[
+      "Protecting your private information is our priority. This Statement of Privacy appliIntelligent Portfolio Application, and National Ice Ball League Sport, Inc and govercollection and usage. For the purposes of this Privacy Policy, unless otherwise notereferences to National Ice Ball League Sport, Inc include https://www.niblscoin.com The NIBLS application is a subscription & ecommerce application. By using the NIBLS application, you consent to the data practices described in this statement.",
+      "Collection of your Personal Information",
+      "In order to better provide you with products and services offered, NIBLS may collect personally identifiable information, such as your:",
+      [
+      "- First and Last Name",
+      "- Mailing Address",
+      "- E-mail Address",
+      "- Phone Number",
+      "- Employer",
+      "- Job Title",
+      "- Location"
+      ],
+      "If you purchase NIBLS's products and services, we collect billing and credit card information. This information is used to complete the purchase transaction.",
+      "NIBLS may also collect anonymous demographic information, which is not unique to you, such as your:",
+      [
+        "- Age",
+        "- Gender"
+      ],
+      "We do not collect any personal information about you unless you voluntarily provide it to us. However, you may be required to provide certain personal information to us when you elect to use certain products or services. These may include: (a) registering for an account; (b) entering a sweepstakes or contest sponsored by us or one of our partners; (c) signing up for special offers from selected third parties; (d) sending us an email message; (e) submitting your credit card or other payment information when ordering and purchasing products and services. To wit, we will use your information for, but not limited to, communicating with you in relation to services and/or products you have requested from us. We also may gather additional personal or non-personal information in the future.",
+      "Use of your Personal Information ",
+      "NIBLS collects and uses your personal information to operate and deliver the services you have requested.",
+      "NIBLS may also use your personally identifiable information to inform you of other products or services available from NIBLS and its affiliates.",
+      "Sharing Information with Third Parties",
+      "NIBLS does not sell, rent or lease its customer lists to third parties.",
+      "NIBLS may share data with trusted partners to help perform statistical analysis, send you email or postal mail, provide customer support, or arrange for deliveries. All such third parties are prohibited from using your personal information except to provide these services to NIBLS, and they are required to maintain the confidentiality of your information. ",
+      "NIBLS may disclose your personal information, without notice, if required to do so by law or in the good faith belief that such action is necessary to: (a) conform to the edicts of the law or comply with legal process served on NIBLS or the site; (b) protect and defend the rights or property of NIBLS; and/or (c) act under exigent circumstances to protect the personal safety of users of NIBLS, or the public. ",
+      "Security of your Personal Information",
+      "NIBLS secures your personal information from unauthorized access, use, or disclosure. NIBLS uses the following methods for this purpose: ",
+      [
+        "- Blockchain product built on A Microsoft service product"
+      ],
+      "We strive to take appropriate security measures to protect against unauthorized access to or alteration of your personal information. Unfortunately, no data transmission over the Internet or any wireless network can be guaranteed to be 100% secure. As a result, while we strive to protect your personal information, you acknowledge that: (a) there are security and privacy limitations inherent to the Internet which are beyond our control; and (b) security, integrity, and privacy of any and all information and data exchanged between you and us through this Site cannot be guaranteed. ",
+      "Right to Deletion",
+      "Subject to certain exceptions set out below, on receipt of a verifiable request from you, we will: ",
+      [
+        "• Delete your personal information from our records; and",
+        "• Direct any service providers to delete your personal information from their records."
+      ],
+      "Please note that we may not be able to comply with requests to delete your personal information if it is necessary to: ",
+      [
+        "• Complete the transaction for which the personal information was collected, fulfill the terms of a written warranty or product recall conducted in accordance with federal law, provide a good or service requested by you, or reasonably anticipated within the context of our ongoing business relationship with you, or otherwise perform a contract between you and us; ",
+        "• Detect security incidents, protect against malicious, deceptive, fraudulent, or illegal activity; or prosecute those responsible for that activity;",
+        "• Debug to identify and repair errors that impair existing intended functionality;",
+        "• Exercise free speech, ensure the right of another consumer to exercise his or her right of free speech, or exercise another right provided for by law; ",
+        "• Comply with the California Electronic Communications Privacy Act;",
+        "• Engage in public or peer-reviewed scientific, historical, or statistical research in the public interest that adheres to all other applicable ethics and privacy laws, when our deletion of the information is likely to render impossible or seriously impair the achievement of such research, provided we have obtained your informed consent",
+        "• Enable solely internal uses that are reasonably aligned with your expectations based on your relationship with us;",
+        "• Comply with an existing legal obligation; or",
+        "• Otherwise use your personal information, internally, in a lawful manner that is compatible with the context in which you provided the information"
+      ],
+      "Children Under Thirteen",
+      "NIBLS collects personally identifiable information from children under the age of thirteen. NIBLS collects this information for the following reason(s): athletics, athletic teams, Registrations for training camps, tournaments, and clubs.. ",
+      "We provide information about our personal data practices for children on our home page and wherever we knowingly collect personal data from children on our application. If you are under the age of thirteen, you must ask your parent or guardian for permission to use this application. If you are a parent and you have questions regarding our data collection practices, please contact us using the information provided at the end of this Statement of Privacy. ",
+      "Disconnecting your NIBLS Account from Third Party Websites",
+      "You will be able to connect your NIBLS account to third party accounts. BY CONNECTING YOUR NIBLS ACCOUNT TO YOUR THIRD PARTY ACCOUNT, YOU ACKNOWLEDGE AND AGREE THAT YOU ARE CONSENTING TO THE CONTINUOUS RELEASE OF INFORMATION ABOUT YOU TO OTHERS (IN ACCORDANCE WITH YOUR PRIVACY SETTINGS ON THOSE THIRD PARTY SITES). IF YOU DO NOT WANT INFORMATION ABOUT YOU, INCLUDING PERSONALLY IDENTIFYING INFORMATION, TO BE SHARED IN THIS MANNER, DO NOT USE THIS FEATURE. You may disconnect your account from a third party account at any time. Users may learn how to disconnect their accounts from third-party websites by visiting their \"My Account\" page. Users may also contact us via email or telephone. ",
+      "E-mail Communications",
+      "From time to time, NIBLS may contact you via email for the purpose of providing announcements, promotional offers, alerts, confirmations, surveys, and/or other general communication. In order to improve our Services, we may receive a notification when you open an email from NIBLS or click on a link therein. ",
+      "If you would like to stop receiving marketing or promotional communications via email from NIBLS, you may opt out of such communications by clicking on the UNSUBSCRIBE button. ",
+      "External Data Storage Sites",
+      "We may store your data on servers provided by third party hosting vendors with whom we havecontracted.",
+      "Changes to this Statement",
+      "NIBLS reserves the right to change this Privacy Policy from time to time. We will notify you about significant changes in the way we treat personal information by sending a notice to the primary email address specified in your account, by placing a prominent notice on our application, and/or by updating any privacy information. Your continued use of the application and/or Services available after such modifications will constitute your: (a) acknowledgment of the modified Privacy Policy; and (b) agreement to abide and be bound by that Policy. ",
+      "Contact Information",
+      "NIBLS welcomes your questions or comments regarding this Statement of Privacy. If you believe that NIBLS has not adhered to this Statement, please contact NIBLS at:",
+      "National Ice Ball League Sport, Inc 91-21 195th street, A4 Queens, New York 11423 ",
+      "Email Address: dashawnbledsoe@niblsinc771.onmicroft.com ",
+      "Telephone number: 3476661911",
+      "Effective as of November 12, 2022"
+
+    ]
+  }
+}

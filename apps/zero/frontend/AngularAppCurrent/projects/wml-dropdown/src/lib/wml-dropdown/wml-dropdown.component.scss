@@ -1,0 +1,28 @@
+@import "../styles.scss";
+
+:host {
+
+
+  &.WmlDropdownView{
+    display: block;
+    z-index: 10000;
+    p{
+      color:$bs-danger;
+    }
+    .WmlDropdown{
+      &Main{
+        &Pod{
+
+
+        }
+      }
+      &Pod{
+
+        &0{
+          position: absolute;
+        }
+      }
+    }
+  }
+
+}

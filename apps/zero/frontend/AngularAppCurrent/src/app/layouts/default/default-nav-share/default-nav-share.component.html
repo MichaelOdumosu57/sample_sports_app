@@ -1,0 +1,9 @@
+<div [class]="classPrefix('MainPod')">
+  <section [class]="classPrefix('Pod0')">
+    <i (click)="baseService.closePopup()" [class]=" classPrefix('Pod0Img0') + ' fa-solid fa-xmark'" ></i>
+  </section>
+  <div [class]="classPrefix('Pod1')">
+    <h2>{{"defaultNavShare.title" | translate }}</h2>
+    <div class="sharethis-inline-share-buttons"></div>
+  </div>
+</div>

@@ -1,0 +1,10 @@
+#root events-calendar{
+  @media #{$mobile}{
+
+    .EventsCalendarPod0{
+      flex-direction: column;
+      align-items: center;
+    }
+
+  }
+}

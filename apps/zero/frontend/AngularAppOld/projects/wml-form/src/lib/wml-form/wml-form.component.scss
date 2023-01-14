@@ -1,0 +1,27 @@
+@import "src/assets/styles/global.scss";
+
+
+:host {
+
+
+  &.WmlFormView{
+    // display: flex;
+    .WmlForm{
+      &Main{
+        &Pod{
+          width: 100%;
+        }
+      }
+      &Pod{
+        &0{
+          &Item {
+            &0 {
+              margin: 0 0 $spacing5 0;
+            }
+          }
+        }
+      }
+    }
+  }
+
+}

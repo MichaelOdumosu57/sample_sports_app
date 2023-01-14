@@ -1,0 +1,494 @@
+{
+    "global": {
+        "website": "Niblscoin",
+        "logoImgAlt": "Nibls inc.PI\u00c8CE DE MONNAIE",
+        "errorRequired": "Ce champ est requis",
+        "avatarImgAlt": "Avatar img"
+    },
+    "notFound": {
+        "lines": [
+            "404",
+            "Oups!Ce n'est pas ce que vous recherchiez",
+            "Mais vous venez de trouver le ballon que nous avions perdu, merci.Essayez votre chance en revenant \u00e0 la page d'accueil."
+        ],
+        "someImgAlt": "Balle technologique"
+    },
+    "app": {
+        "overlayLoading": "Chargement ...",
+        "siteUnderConstruction": "Site en construction"
+    },
+    "defaultNav": {
+        "share": "PARTAGER",
+        "profile": "PROFIL",
+        "logout": "SE D\u00c9CONNECTER",
+        "lang": {
+            "label": "LANGUE",
+            "options": [
+                "arabe",
+                "Allemand",
+                "Anglais",
+                "Espagnol",
+                "Japonais",
+                "Ukrainien",
+                "mandarin",
+                "Fran\u00e7ais",
+                "hindi"
+            ]
+        },
+        "login": "CONNEXION",
+        "register": "Rejoindre le club"
+    },
+    "defaultBetslip": {
+        "betSlipTabText": "PARI SLIP",
+        "myBetsTabText": "Mes paris"
+    },
+    "defaultNavShare": {
+        "title": "Partager sur"
+    },
+    "defaultAside": {
+        "logoImgAlt": "Nibls inc.Logo de monnaie",
+        "routes": {
+            "home": "Maison",
+            "mall": "Centre commercial",
+            "events": "\u00c9v\u00e9nements",
+            "signUp": "Inscription coll\u00e9giale",
+            "football": "Football",
+            "niblsball": "Tech + balle",
+            "teamHandball": "Handball d'\u00e9quipe",
+            "rubgy": "Le rugby"
+        }
+    },
+    "defaultFooter": {
+        "security": {
+            "title": "S\u00e9curit\u00e9 et confidentialit\u00e9",
+            "items": [
+                "Politique de confidentialit\u00e9",
+                "Protection des membres"
+            ]
+        },
+        "contact": {
+            "title": "INFORMATIONS DE CONTACT",
+            "items": [
+                "Contactez-nous sur LinkedIn",
+                "Lien de pitch de l'entreprise",
+                "Pr\u00e9sentation officielle de Nibls Coin Investor.pdf",
+                "Whitepapers - Nibls Coin - Recherche de 1,2 M $ et demandant 250k $.pdf"
+            ]
+        }
+    },
+    "profileMain": {
+        "wmlNotify": {
+            "updateProfileSuccess": "Profil a r\u00e9ussi \u00e0 mettre \u00e0 jour",
+            "updateProfileFail": "Il y avait une erreur \u00e0 jour votre profil, veuillez contacter le support client si le probl\u00e8me persiste"
+        },
+        "avatarImgAlt": "Avatar img",
+        "profileOptions": [
+            {
+                "title": "Param\u00e8tres du compte",
+                "subTitle": "Afficher les informations du compte"
+            },
+            {
+                "title": "Portefeuilles connect\u00e9s",
+                "subTitle": "Afficher les portefeuilles connect\u00e9s"
+            }
+        ],
+        "basicDemographic": {
+            "title": "informations de l'utilisateur",
+            "fields": {
+                "firstName": {
+                    "label": "Pr\u00e9nom"
+                },
+                "lastName": {
+                    "label": "Nom de famille"
+                },
+                "address": {
+                    "label": "Adresse"
+                },
+                "city": {
+                    "label": "Ville"
+                },
+                "state": {
+                    "label": "\u00c9tat"
+                },
+                "zipcode": {
+                    "label": "Code postal"
+                },
+                "country": {
+                    "label": "Pays"
+                }
+            },
+            "updateBtn": "Mise \u00e0 jour"
+        }
+    },
+    "niblsBallMain": {
+        "backdropImgAlt": "toile de fond",
+        "eventCard": {
+            "sportName": "Tech + balle"
+        },
+        "yourPicks": {
+            "title": "Vos choix",
+            "noPredict": "Aucune pr\u00e9diction faite",
+            "submit": "Soumettre les paris"
+        }
+    },
+    "eventsMain": {
+        "wmlNotify": {
+            "downloadMetamaskWallet": "T\u00e9l\u00e9charger Metamask Wallet",
+            "installWallet": "Veuillez utiliser le lien pr\u00e9sent\u00e9 pour ajouter le portefeuille blockchain \u00e0 votre navigateur",
+            "walletSuccessAdded": "Portefeuille additionn\u00e9 avec succ\u00e8s"
+        },
+        "events": {
+            "name": "\u00c9v\u00e9nement Nibls",
+            "eventbritePurchase": "Voir sur EventBrite",
+            "herePurchase": "Continuer \u00e0 acheter"
+        },
+        "wallet": {
+            "title": "Choisissez le portefeuille",
+            "metamask": {
+                "title": "Portefeuille m\u00e9tamasque"
+            },
+            "coinbase": {
+                "title": "Portefeuille Coinbase"
+            }
+        }
+    },
+    "purchaseEvent": {
+        "title": "Vous devez acheter des billets?",
+        "subTitle": "Remplissez les d\u00e9tails ci-dessous avec pr\u00e9cision et nous vous contacterons bient\u00f4t.",
+        "fields": [
+            {
+                "label": "Nom",
+                "errorRequired": "Un nom est requis"
+            },
+            {
+                "label": "E-mail",
+                "errorRequired": "Un e-mail est requis"
+            },
+            {
+                "label": "Organisme",
+                "errorRequired": "Une organisation est requise"
+            },
+            {
+                "label": "\u00cates-vous un \u00e9tudiant coll\u00e9gial ou un dipl\u00f4m\u00e9?Si oui, quelle \u00e9cole?Qu'as-tu \u00e9tudi\u00e9?",
+                "errorRequired": "A \u00cates-vous un \u00e9tudiant coll\u00e9gial ou un dipl\u00f4m\u00e9?Si oui, quelle \u00e9cole?Qu'as-tu \u00e9tudi\u00e9?est requis"
+            },
+            {
+                "label": "Autres poign\u00e9es de m\u00e9dias sociaux",
+                "errorRequired": "Une autre poign\u00e9e de m\u00e9dias sociaux est requise"
+            },
+            {
+                "label": "Tu fais du sport?Si oui, quel sport?",
+                "errorRequired": "A faites-vous du sport?Si oui, quel sport?est requis"
+            },
+            {
+                "label": "\u00cates-vous un investisseur, VC ou Angel en stade pr\u00e9coce ou ult\u00e9rieur?",
+                "errorRequired": "A \u00cates-vous un investisseur, VC ou Angel en d\u00e9but de stade ou plus tard?est requis"
+            },
+            {
+                "label": "\u00cates-vous un investisseur actif?Et dans quelles industries investissez-vous?",
+                "errorRequired": "A \u00cates-vous un investisseur actif?Et dans quelles industries investissez-vous?est requis"
+            },
+            {
+                "label": "\u00c9num\u00e9rez votre profil professionnel LinkedIn",
+                "errorRequired": "Une liste que votre profil professionnel LinkedIn est requis"
+            },
+            {
+                "label": "Num\u00e9ro de t\u00e9l\u00e9phone",
+                "errorRequired": "Un num\u00e9ro de t\u00e9l\u00e9phone est requis"
+            },
+            {
+                "label": "Conditions",
+                "errorRequired": "Cette bo\u00eete doit \u00eatre coch\u00e9e",
+                "checkBoxDesc": "J'accepte les termes et conditions"
+            }
+        ],
+        "quantity": "Quantit\u00e9",
+        "price": "Prix",
+        "total": "Total",
+        "ticketField": {
+            "errorRequired": "Une quantit\u00e9 est requise",
+            "errorMin": "La quantit\u00e9 doit \u00eatre sup\u00e9rieure \u00e0 1"
+        },
+        "submit": "Soumettre",
+        "wmlNotify": {
+            "purchaseTicketNeedMoreFunds": "\u00c9quilibre insuffisant Veuillez remplir votre portefeuille et r\u00e9essayer",
+            "purchaseTicketError": "Il y a eu une erreur en essayant d'acheter un billet, veuillez r\u00e9essayer plus tard ou contacter le support si le probl\u00e8me persiste",
+            "purchaseTicketSuccess": "Billet achet\u00e9 avec succ\u00e8s.V\u00e9rifiez votre e-mail pour confirmation.",
+            "fillOutForm": "S'il-vous-pla\u00eet remplissez tous les champs requis",
+            "selectAWallet": "Veuillez s\u00e9lectionner un portefeuille avant de continuer \u00e0 effectuer un achat"
+        }
+    },
+    "memberProtection": {
+        "title": "Protection des membres",
+        "sections": [
+            "Politique de protection des membres et jeu responsable",
+            "L'entreprise ou \u00abnous\u00bb \u00abnous\u00bb ou \u00abnotre\u00bb (tel que d\u00e9fini dans les \u00abconditions de service\u00bb) fournit \u00e0 nos utilisateurs un environnement de trading sportif responsable sur le site (tel que d\u00e9fini dans les conditions de service).Non seulement c'est notre mission de fournir \u00e0 nos membres les statistiques de jeu de performance des comp\u00e9tences sportives les plus divertissantes pour l'exp\u00e9rience de n\u00e9gociation, mais nous sommes \u00e9galement de notre devoir d'aider \u00e0 pr\u00e9venir l'utilisation compulsive et l'acc\u00e8s mineur \u00e0 nos produits de jeu d'application de portefeuille intelligents NIBLS.Nous nous engageons dans le trading ou les jeux sportifs responsables.",
+            [
+                "Si vous avez un probl\u00e8me de jeu et que vous voulez de l'aide, appelez",
+                "1-800-522-4700",
+                "1-800-Gambler (426-2537)",
+                "Assistance 24/7 Vous pouvez \u00e9galement envoyer un SMS \u00e0 \u00absupporter\u00bb \u00e0 53342"
+            ],
+            "Protection des mineurs",
+            "Conform\u00e9ment au r\u00e8glement de l'\u00c9tat, toute personne de moins de 21 ans (\u00abmineurs\u00bb) est interdite de jouer sur notre site. Dans New York, il est ill\u00e9gal pour toute personne qui est mineure de s'engager dans le jeu sportif.",
+            "N\u00e9anmoins, nous reconnaissons qu'Internet est facilement accessible dans de nombreuses maisons du monde.En cons\u00e9quence, les soci\u00e9t\u00e9s de jeux et les parents doivent travailler ensemble pour prot\u00e9ger les mineurs contre les jeux de hasard.Pour assurer la s\u00e9curit\u00e9 des mineurs, nous vous recommandons d'installer un logiciel de filtrage pour emp\u00eacher les mineurs d'acc\u00e9der \u00e0 certains sites Web et programmes.",
+            "Vous trouverez ci-dessous des liens vers certains fournisseurs et logiciels:",
+            [
+                "Cyber patrouille",
+                "Gamblock",
+                "Netnanny",
+                "Gamban"
+            ],
+            "Conseils pour les parents:",
+            "Ne laissez pas les mineurs sans surveillance pr\u00e8s de votre ordinateur lorsque le logiciel est en cours d'ex\u00e9cution.Vous devez prendre soin de mani\u00e8re exceptionnelle pour vous assurer qu'ils n'acc\u00e8dent pas \u00e0 nos services via vos appareils.",
+            "Prot\u00e9gez vos programmes de jeu avec l'acc\u00e8s au mot de passe.",
+            "Ne permettez pas aux mineurs de participer \u00e0 une activit\u00e9 de jeu",
+            "Gardez vos d\u00e9tails de nom d'utilisateur, de mot de passe et de d\u00e9p\u00f4t hors de la port\u00e9e des enfants.",
+            "\u00c9duquez vos enfants sur l'ill\u00e9galit\u00e9 et les dommages potentiels du jeu des mineurs.",
+            "Limitez le temps que vos enfants passent en ligne.",
+            "Faites attention particuli\u00e8rement concernant l'utilisation par les mineurs d'installations telles que les appareils mobiles.",
+            "Malheureusement, aucun syst\u00e8me n'est infaillible.Si vous connaissez une personne de moins de 21 ans qui est enregistr\u00e9e chez nous, veuillez nous en informer \u00e0 support@niblssinc771.onmicrosoft.com",
+            "Votre mot de passe",
+            "Pour modifier votre mot de passe: connectez-vous dans votre compte> Vous devez s\u00e9lectionner mon compte dans le menu> Cliquez sur mon compte> Choisissez votre mot de passe> R\u00e9pondez correctement \u00e0 la question de s\u00e9curit\u00e9> Cliquez sur Enregistrer les modifications.",
+            "Si vous oubliez votre mot de passe et que vous souhaitez le r\u00e9initialiser: acc\u00e9dez \u00e0 l'\u00e9cran de connexion> S\u00e9lectionnez \u00abMot de passe oubli\u00e9 / modifi\u00e9\u00bb> Ins\u00e9rez votre adresse e-mail que vous utilisez pour vous connecter \u00e0 votre compte> Vous recevrez un e-mail qui contient un lien pour r\u00e9initialiservotre mot de passe.",
+            "S\u00e9curit\u00e9 du compte",
+            "Il est de votre responsabilit\u00e9 de configurer la fonction de verrouillage automatique de votre terminal client pour prot\u00e9ger votre terminal client contre une utilisation non autoris\u00e9e.",
+            "Nous vous fournissons des outils pour vous aider \u00e0 identifier toute utilisation non autoris\u00e9e de votre compte avec le site:",
+            "Vous pouvez g\u00e9n\u00e9rer un rapport de relev\u00e9 de compte \u00e0 partir de la page mon compte.",
+            "Vous pouvez voir la derni\u00e8re fois que votre compte a \u00e9t\u00e9 connect\u00e9 via le hall du site.",
+            "Si vous croyez ou soup\u00e7onnez qu'il y a eu un acc\u00e8s ou une utilisation non autoris\u00e9s de votre compte, vous pourrez recevoir l'adresse IP du dernier connexion \u00e0 votre compte en contactant support@niblssinc771.onmicrosoft.com",
+            "Historique des comptes et des paris",
+            "Si vous souhaitez afficher les r\u00e9sultats des paris que vous avez plac\u00e9s, choisissez \u00abMes paris\u00bb.Afin de recevoir des rapports concernant votre transaction et votre jeu de jeu, s\u00e9lectionnez \u00abInstruction de compte\u00bb.",
+            "Risques potentiels associ\u00e9s au jeu",
+            "Le jeu peut avoir un impact sur votre vie et celle de vos amis et de votre famille.Nous avons \u00e9num\u00e9r\u00e9 quelques exemples des risques li\u00e9s au jeu ci-dessous",
+            [
+                "Utiliser le jeu pour d\u00e9tourner l'attention des probl\u00e8mes et du stress",
+                "Augmentation du stress et de l'anxi\u00e9t\u00e9",
+                "Utiliser le jeu comme une \u00e9vasion des probl\u00e8mes.",
+                "Cacheter le jeu des autres",
+                "Chasser les pertes",
+                "Utiliser le jeu pour fournir une ru\u00e9e vers l'adr\u00e9naline.",
+                "Ne pas pouvoir arr\u00eater de jouer.",
+                "N\u00e9gliger votre famille et vos amis."
+            ],
+            "Conseils et aide",
+            "Si vous ou quelqu'un que vous connaissez connaissez la d\u00e9pendance du jeu compulsif, vous pouvez demander de l'aide et des conseils de:",
+            [
+                "Appelez le 1-800-522-4700",
+                "Conseil national sur le jeu probl\u00e9matique",
+                "Emp\u00eacher le jeu compulsif"
+            ],
+            "Nous reconnaissons que si la plupart des gens jouent pour le divertissement, un petit nombre de personnes peuvent devenir obs\u00e9d\u00e9es par les gains mon\u00e9taires potentiels.Nous avons mis en \u0153uvre des mesures pour aider \u00e0 r\u00e9soudre ce probl\u00e8me:",
+            [
+                "Sur le site, vous pouvez d\u00e9finir vos limites de d\u00e9p\u00f4t, la limite de pari et la limite de temps de jeu ou une combinaison d'entre elles (veuillez voir ci-dessous",
+                "Vous pouvez vous exclure du site (veuillez voir ci-dessous)"
+            ],
+            "Rappelles toi:",
+            "Le jeu est une forme de divertissement.Ce n'est pas un moyen de devenir riche rapidement et de rembourser vos dettes.",
+            "Il n'y a pas de formules qui garantissent les gains",
+            "Assurez-vous que la d\u00e9cision de jouer est votre choix",
+            "N'essayez jamais de poursuivre vos pertes.",
+            "V\u00e9rifiez r\u00e9guli\u00e8rement les montants que vous d\u00e9pensez dans la caissi\u00e8re",
+            "Comme beaucoup de choses, ce qui est agr\u00e9able avec mod\u00e9ration peut \u00eatre d\u00e9sastreux en exc\u00e8s.",
+            "Jouer de mani\u00e8re responsable - fixer des limites",
+            "Nous vous fournissons des outils afin que vous puissiez g\u00e9rer votre jeu.Veuillez noter que nous pouvons \u00e9galement imposer des limites \u00e0 votre jeu.Dans un tel \u00e9v\u00e9nement, la limitation plus restrictive s'appliquera.",
+            "1. Limites de d\u00e9p\u00f4t - Vous pouvez fixer une limite sur le montant que vous pouvez d\u00e9poser sur le site pour les p\u00e9riodes de roulement suivantes:",
+            [
+                "24 heures",
+                "7 jours",
+                "30 jours"
+            ],
+            "Selon la limite de d\u00e9p\u00f4t que vous avez fix\u00e9e, la limite de d\u00e9p\u00f4t sera d\u00e9termin\u00e9e en examinant les derni\u00e8res 24 heures, 7 jours ou 30 jours (le cas \u00e9ch\u00e9ant)",
+            "Afin de d\u00e9finir la limite de d\u00e9p\u00f4t ou de r\u00e9gler la limite de d\u00e9p\u00f4t que vous avez d\u00e9j\u00e0 d\u00e9finie, vous pouvez utiliser l'une des m\u00e9thodes suivantes",
+            [
+                "\u00c0 partir de la page de compte mon compte> Cliquez sur Onglet de jeu responsable> Cliquez sur D\u00e9p\u00f4t",
+                "\u00c0 partir de la page de caissier> Cliquez sur votre avatar> Cliquez sur les limites personnelles"
+            ],
+            "Vous recevrez une notification pop-up que vous devrez confirmer pour la limite de d\u00e9p\u00f4t \u00e0 appliquer.",
+            "Sauf ajuster la limite de d\u00e9p\u00f4t ou supprimer la limite de d\u00e9p\u00f4t, la limite de d\u00e9p\u00f4t que vous avez d\u00e9finie renouvellera automatiquement",
+            "Augmenter et diminuer l'une de vos limites de d\u00e9p\u00f4t: si vous diminuez l'une des limites de d\u00e9p\u00f4t que vous avez fix\u00e9es, une telle diminution sera appliqu\u00e9e imm\u00e9diatement.Si vous augmentez l'une des limites de d\u00e9p\u00f4t que vous avez fix\u00e9es, une telle augmentation entrera en vigueur dans les 24 heures.",
+            "Une notification pop-up appara\u00eetra lorsque vous atteignez la limite de d\u00e9p\u00f4t que vous avez d\u00e9finie.Une fois que vous avez atteint la limite de d\u00e9p\u00f4t que vous avez fix\u00e9e, vous ne pouvez pas faire d'autres d\u00e9p\u00f4ts dans votre compte.",
+            "2. Limite de pari - Vous pouvez d\u00e9finir une limite sur la quantit\u00e9 maximale que vous pouvez parier pour les p\u00e9riodes suivantes (ou une combinaison des p\u00e9riodes suivantes):",
+            [
+                "Jour de calendrier",
+                "Semaine civile",
+                "Mois du calendrier"
+            ],
+            "P\u00e9riode de la limite pertinente",
+            "La limite de parier de la journ\u00e9e civile: la limite de parier de la journ\u00e9e civile commence \u00e0 12h le jour civil o\u00f9 une telle limite de pari entre en vigueur et se termine le m\u00eame jour civil \u00e0 23h59.",
+            "Limite de parier de la semaine civile: La limite hebdomadaire de parier commence \u00e0 12h le lundi de la semaine civile que cette limite de pari entre en vigueur et se termine le dimanche de la m\u00eame semaine civile \u00e0 23h59",
+            "Mois civil Limite de parier: la limite mensuelle de parier commence \u00e0 12h le premier jour civil du mois civil o\u00f9 une telle limite de pari entre en vigueur et se termine le dernier jour du mois civil \u00e0 23h59.",
+            "Afin de d\u00e9finir la limite de pari ou ajuster la limite de pari, \u00e0 partir de la page de compte My Account> Cliquez sur Onglet de jeu responsable> Cliquez sur Limites de pari> D\u00e9finir / Ajustez la limite de pari qui s'applique",
+            "Sauf ajuster la limite de pari ou supprimer la limite de pari, la limite de pari que vous avez d\u00e9finie renouvellera automatiquement",
+            "Augmenter et diminuer l'une de vos limites de pari: si vous diminuez l'une des limites de pari que vous avez fix\u00e9es, une telle diminution sera appliqu\u00e9e la prochaine fois que vous vous connectez \u00e0 votre compte.Si vous augmentez l'une des limites de pari que vous avez fix\u00e9es, une telle augmentation entrera en vigueur dans les 24 heures.",
+            "Une notification pop-up appara\u00eetra lorsque vous atteignez la limite de pari que vous avez d\u00e9finie.Une fois que vous avez atteint la limite de pari que vous avez d\u00e9finie, vous ne pouvez pas faire d'autres paris via votre compte",
+            "Si vous demandez d'augmenter plusieurs de vos limites de pari plusieurs fois pendant la p\u00e9riode de limite de pari pertinente d\u00e9finie, la derni\u00e8re demande pour augmenter votre limite de pari entrera dans les 24 heures.",
+            "3. Limite de temps de jeu - Vous pouvez fixer une limite sur le temps que vous passez sur le site par jour civil.",
+            "Afin de d\u00e9finir la limite de temps de jeu ou d'ajuster la limite de temps de jeu: \u00e0 partir de la page de mon compte> Cliquez sur l'onglet de jeu responsable> Cliquez sur Limites de jeu> Ins\u00e9rer / ajustez la limite de temps de jeu> Cliquez sur Limite de mise \u00e0 jour.",
+            "Sauf ajustez la limite de temps de jeu ou supprimez la limite de temps de jeu, la limite de temps de jeu que vous avez d\u00e9finie renouvellera automatiquement.",
+            "R\u00e9glage initial de la limite de temps de jeu: lorsque vous d\u00e9finissez le temps de jeu, une telle limite de jeu entrera en vigueur le jour civil",
+            "Augmenter et diminuer les limites de temps de jeu: si vous diminuez la limite de temps de jeu que vous avez fix\u00e9e, une telle diminution entrera en vigueur lorsque vous vous connectez \u00e0 votre compte.Si vous augmentez la limite de temps de jeu que vous avez fix\u00e9e, une telle augmentation entrera en vigueur lorsque vous vous connectez \u00e0 votre compte le jour civil apr\u00e8s le jour civil dans lequel vous avez augment\u00e9 la limite de jeu",
+            "Une notification contextuelle appara\u00eetra lorsque vous atteignez la limite de jeu que vous avez d\u00e9finie, et vous serez automatiquement enregistr\u00e9 de votre compte.",
+            "Auto-exclusion",
+            [
+                "Un ans",
+                "Cinq ans",
+                "Dur\u00e9e de vie"
+            ],
+            "Afin de s'auto-s'exclure via le site, \u00e0 partir de la page de compte My Compte> Cliquez sur Onglet de jeu responsable> Cliquez sur Demander Exclusion d'auto> puis cliquez sur Soumettre.Vous serez ensuite d\u00e9connect\u00e9 du site.",
+            "Vous ne pouvez pas placer de nouveaux paris avec le site une fois que vous vous \u00eates auto-exclu.Cependant, pendant la p\u00e9riode d'exclusion d'auto-exclusion que vous avez d\u00e9finie, vous pouvez retirer votre banc de banque \u00e0 condition que les fonds soient autoris\u00e9s et que la ou les raisons pour l'exclusion n'interdisent pas un retrait de votre banque",
+            "Veuillez noter que si vous vous \u00eates auto-exclu du site de la vie, vous pouvez demander \u00e0 r\u00e9voquer l'auto-exclusion \u00e0 vie apr\u00e8s au moins un an qui s'est \u00e9coul\u00e9 \u00e0 partir de l'auto-exclusion \u00e0 vie.com.",
+            "Une fois que vous vous \u00eates auto-exclu sur le site, nous allons:",
+            [
+                "Bloquez votre compte.",
+                "Bloquez tous les nouveaux comptes que vous essayez d'ouvrir avec le site lorsque nous les d\u00e9tectons"
+            ],
+            "Pendant votre p\u00e9riode d'auto-exclusion, nous prendrons toutes les mesures raisonnables pour vous assurer de ne recevoir aucun mat\u00e9riel promotionnel de notre part.",
+            "Notifications push",
+            "Dans le cas o\u00f9 vous t\u00e9l\u00e9chargez l'une de nos applications sur votre appareil ou directement du site \u00e0 votre appareil et que vous acceptez de recevoir des notifications push, si vous souhaitez arr\u00eater ces notifications qui vous sont envoy\u00e9es, vous devez le faire via l'appareil concern\u00e9 ou en supprimantL'application.Cependant, nous arr\u00eaterons votre r\u00e9ception des notifications push si vous vous \u00eates-vous exclu du site"
+        ]
+    },
+    "privacyPolicy": {
+        "title": "Politique de confidentialit\u00e9",
+        "sections": [
+            "La protection de vos informations priv\u00e9es est notre priorit\u00e9.Cette d\u00e9claration de la confidentialit\u00e9 applique l'application du portefeuille, et la National Ice Ball League Sport, Inc et Govercollection et utilisation.Aux fins de la pr\u00e9sente politique de confidentialit\u00e9, sauf indication contraire de National Ice Ball League Sport, Inc inclut https://www.niblscoin.com La demande Nibls est une application d'abonnement et de commerce \u00e9lectronique.En utilisant l'application Nibls, vous consentez aux pratiques de donn\u00e9es d\u00e9crites dans cette d\u00e9claration.",
+            "Collection de vos informations personnelles",
+            "Afin de mieux vous fournir des produits et services offerts, les NIBL peuvent collecter des informations personnellement identifiables, telles que votre:",
+            [
+                "- Nom et nom de famille",
+                "- Adresse postale",
+                "- Adresse e-mail",
+                "- Num\u00e9ro de t\u00e9l\u00e9phone",
+                "- Employeur",
+                "- Titre d'emploi",
+                "- Emplacement"
+            ],
+            "Si vous achetez les produits et services de Nibls, nous collectons les informations de facturation et de carte de cr\u00e9dit.Ces informations sont utilis\u00e9es pour terminer la transaction d'achat.",
+            "Les Nibls peuvent \u00e9galement collecter des informations d\u00e9mographiques anonymes, qui ne vous sont pas propres, comme le v\u00f4tre:",
+            [
+                "- \u00c2ge",
+                "- Le genre"
+            ],
+            "Nous ne recueillons aucune information personnelle \u00e0 votre sujet, sauf si vous nous le fournissez volontairement.Cependant, vous devrez peut-\u00eatre nous fournir certaines informations personnelles lorsque vous choisissez d'utiliser certains produits ou services.Ceux-ci peuvent inclure: (a) l'inscription \u00e0 un compte;(b) entrer dans un concours ou un concours parrain\u00e9 par nous ou l'un de nos partenaires;(c) s'inscrire \u00e0 des offres sp\u00e9ciales de tiers s\u00e9lectionn\u00e9s;(d) nous envoyer un e-mail;(e) Soumettre votre carte de cr\u00e9dit ou d'autres informations de paiement lors de la commande et de l'achat de produits et services.\u00c0 savoir, nous utiliserons vos informations, mais sans s'y limiter, la communication avec vous en relation avec les services et / ou les produits que vous nous avez demand\u00e9s.Nous pouvons \u00e9galement recueillir des informations personnelles ou non personnelles suppl\u00e9mentaires \u00e0 l'avenir.",
+            "Utilisation de vos informations personnelles",
+            "Nibls collecte et utilise vos informations personnelles pour utiliser et fournir les services que vous avez demand\u00e9s.",
+            "Les NIBL peuvent \u00e9galement utiliser vos informations personnellement identifiables pour vous informer des autres produits ou services disponibles aupr\u00e8s de NIBLS et de ses affili\u00e9s.",
+            "Partage d'informations avec des tiers",
+            "Nibls ne vend, ne loue pas ou ne loue pas ses listes de clients \u00e0 des tiers.",
+            "NIBLS peut partager des donn\u00e9es avec des partenaires de confiance pour aider \u00e0 effectuer une analyse statistique, vous envoyer un e-mail ou un courrier postal, fournir un support client ou organiser des livraisons.Il est interdit \u00e0 tous ces tiers d'utiliser vos informations personnelles, sauf pour fournir ces services aux NIBL, et ils sont tenus de maintenir la confidentialit\u00e9 de vos informations.",
+            "Les Nibls peuvent divulguer vos informations personnelles, sans pr\u00e9avis, si n\u00e9cessaire pour le faire par la loi ou dans la croyance de bonne foi qu'une telle action est n\u00e9cessaire pour: (a) se conformer aux \u00e9dits de la loi ou se conformer au processus juridique destin\u00e9 aux NIBL ou aux Nibls ouplacer;b) prot\u00e9ger et d\u00e9fendre les droits ou les biens des NIBL;et / ou (c) agir dans des circonstances exigeantes pour prot\u00e9ger la s\u00e9curit\u00e9 personnelle des utilisateurs de NIBLS ou du public.",
+            "S\u00e9curit\u00e9 de vos informations personnelles",
+            "Nibls s\u00e9curise vos informations personnelles \u00e0 partir d'un acc\u00e8s, d'une utilisation ou d'une divulgation non autoris\u00e9s.Nibls utilise les m\u00e9thodes suivantes \u00e0 cet effet:",
+            [
+                "- Produit blockchain construit sur un produit Microsoft Service"
+            ],
+            "Nous nous effor\u00e7ons de prendre des mesures de s\u00e9curit\u00e9 appropri\u00e9es pour nous prot\u00e9ger contre l'acc\u00e8s non autoris\u00e9 ou l'alt\u00e9ration de vos informations personnelles.Malheureusement, aucune transmission de donn\u00e9es sur Internet ou aucun r\u00e9seau sans fil ne peut \u00eatre garantie \u00e0 100%.En cons\u00e9quence, alors que nous nous effor\u00e7ons de prot\u00e9ger vos informations personnelles, vous reconnaissez que: (a) il existe des limitations de s\u00e9curit\u00e9 et de confidentialit\u00e9 inh\u00e9rentes \u00e0 Internet qui sont hors de notre contr\u00f4le;et (b) la s\u00e9curit\u00e9, l'int\u00e9grit\u00e9 et la confidentialit\u00e9 de toutes les informations et donn\u00e9es \u00e9chang\u00e9es entre vous et nous via ce site ne peuvent pas \u00eatre garanties.",
+            "Droit \u00e0 la suppression",
+            "Sous r\u00e9serve de certaines exceptions indiqu\u00e9es ci-dessous, \u00e0 la r\u00e9ception d'une demande v\u00e9rifiable de votre part, nous allons:",
+            [
+                "\u2022 Supprimez vos informations personnelles de nos dossiers;et",
+                "\u2022 Offrez \u00e0 tous les fournisseurs de services de supprimer vos informations personnelles de leurs dossiers."
+            ],
+            "Veuillez noter que nous ne pourrons peut-\u00eatre pas respecter les demandes de supprimer vos informations personnelles si elles sont n\u00e9cessaires pour:",
+            [
+                "\u2022 Terminez la transaction pour laquelle les informations personnelles ont \u00e9t\u00e9 collect\u00e9es, remplissez les termes d'une garantie \u00e9crite ou d'un rappel de produit con\u00e7u conform\u00e9ment \u00e0 la loi f\u00e9d\u00e9rale, fournissent un bien ou un service demand\u00e9 par vous, ou raisonnablement anticip\u00e9 dans le contexte de notre relation commerciale en cours avecvous, ou autrement effectuer un contrat entre vous et nous;",
+                "\u2022 d\u00e9tecter les incidents de s\u00e9curit\u00e9, prot\u00e9ger contre les activit\u00e9s malveillantes, trompeuses, frauduleuses ou ill\u00e9gales;ou poursuivre les responsables de cette activit\u00e9;",
+                "\u2022 d\u00e9boguer pour identifier et r\u00e9parer les erreurs qui nuisent aux fonctionnalit\u00e9s pr\u00e9vues existantes;",
+                "\u2022 exercer la libert\u00e9 d'expression, assurer le droit d'un autre consommateur d'exercer son droit de libert\u00e9 d'expression ou d'exercer un autre droit pr\u00e9vu par la loi;",
+                "\u2022 Respectez la California Electronic Communications Privacy Act;",
+                "\u2022 s'engager dans la recherche scientifique, historique ou statistique \u00e0 l'\u00e9valuation publique ou \u00e9valu\u00e9e par les pairs dans l'int\u00e9r\u00eat public qui adh\u00e8re \u00e0 toutes les autres lois applicables en mati\u00e8re d'\u00e9thique et de confidentialit\u00e9, lorsque notre suppression des informations est susceptible de rendre impossible ou s\u00e9rieusement alt\u00e9rer la r\u00e9alisation de ces recherches,\u00e0 condition que nous ayons obtenu votre consentement \u00e9clair\u00e9",
+                "\u2022 Activer uniquement les utilisations internes qui sont raisonnablement align\u00e9es sur vos attentes en fonction de votre relation avec nous;",
+                "\u2022 respecter une obligation l\u00e9gale existante;ou",
+                "\u2022 Sinon, utilisez vos informations personnelles, en interne, d'une mani\u00e8re l\u00e9gale compatible avec le contexte dans lequel vous avez fourni les informations"
+            ],
+            "Enfants de moins de treize ans",
+            "Nibls recueille des informations personnellement identifiables aupr\u00e8s d'enfants de moins de treize ans.Nibls recueille ces informations pour la ou les raisons suivantes: athl\u00e9tisme, \u00e9quipes sportives, inscriptions pour les camps d'entra\u00eenement, les tournois et les clubs.",
+            "Nous fournissons des informations sur nos pratiques de donn\u00e9es personnelles pour les enfants sur notre page d'accueil et partout o\u00f9 nous collectons sciemment des donn\u00e9es personnelles aupr\u00e8s des enfants de notre application.Si vous avez moins de treize ans, vous devez demander \u00e0 votre parent ou tuteur la permission d'utiliser cette application.Si vous \u00eates un parent et que vous avez des questions concernant nos pratiques de collecte de donn\u00e9es, veuillez nous contacter en utilisant les informations fournies \u00e0 la fin de cette d\u00e9claration de confidentialit\u00e9.",
+            "D\u00e9brancher votre compte Nibls \u00e0 partir de sites Web tiers",
+            "Vous pourrez connecter votre compte Nibls aux comptes tiers.En connectant votre compte Nibls \u00e0 votre compte tiers, vous reconnaissez et acceptez que vous consentez \u00e0 la version continue d'informations vous concernant les autres (conform\u00e9ment \u00e0 vos param\u00e8tres de confidentialit\u00e9 sur ces sites tiers).Si vous ne voulez pas d'informations vous concernant, y compris des informations d'identification personnelle, \u00e0 partager de cette mani\u00e8re, n'utilisez pas cette fonctionnalit\u00e9.Vous pouvez d\u00e9connecter votre compte d'un compte tiers \u00e0 tout moment.Les utilisateurs peuvent apprendre \u00e0 d\u00e9connecter leurs comptes \u00e0 partir de sites Web tiers en visitant leur page \"Mon compte\".Les utilisateurs peuvent \u00e9galement nous contacter par e-mail ou par t\u00e9l\u00e9phone.",
+            "Communications par courrier \u00e9lectronique",
+            "De temps en temps, NIBLS peut vous contacter par e-mail dans le but de fournir des annonces, des offres promotionnelles, des alertes, des confirmations, des enqu\u00eates et / ou d'autres communications g\u00e9n\u00e9rales.Afin d'am\u00e9liorer nos services, nous pouvons recevoir une notification lorsque vous ouvrez un e-mail de NIBLS ou cliquez sur un lien.",
+            "Si vous souhaitez arr\u00eater de recevoir des communications marketing ou promotionnelles par e-mail de NIBLS, vous pouvez vous retirer de ces communications en cliquant sur le bouton de d\u00e9sabonnement.",
+            "Sites de stockage de donn\u00e9es externes",
+            "Nous pouvons stocker vos donn\u00e9es sur les serveurs fournis par des fournisseurs d'h\u00e9bergement tiers avec lesquels nous avons eu.",
+            "Modifications de cette d\u00e9claration",
+            "Nibls se r\u00e9serve le droit de modifier cette politique de confidentialit\u00e9 de temps \u00e0 autre.Nous vous informerons des modifications importantes dans la fa\u00e7on dont nous traitons les informations personnelles en envoyant un avis \u00e0 l'adresse e-mail principale sp\u00e9cifi\u00e9e dans votre compte, en pla\u00e7ant un avis de premier plan sur notre demande et / ou en mettant \u00e0 jour toute information de confidentialit\u00e9.Votre utilisation continue de l'application et / ou des services disponibles apr\u00e8s ces modifications constituera votre: (a) la reconnaissance de la politique de confidentialit\u00e9 modifi\u00e9e;et (b) l'accord pour respecter et \u00eatre li\u00e9 par cette politique.",
+            "Coordonn\u00e9es",
+            "Nibls accueille vos questions ou commentaires concernant cette d\u00e9claration de confidentialit\u00e9.Si vous pensez que Nibls n'a pas adh\u00e9r\u00e9 \u00e0 cette d\u00e9claration, veuillez contacter Nibls \u00e0:",
+            "National Ice Ball League Sport, Inc 91-21 195th Street, A4 Queens, New York 11423",
+            "Adresse e-mail: dashawn bledsoe@niblsinc771.onmicrosoft.com",
+            "Num\u00e9ro de t\u00e9l\u00e9phone: 3476661911",
+            "\u00c0 compter du 12 novembre 2022"
+        ]
+    },
+    "collegiateSignupMain": {
+        "backdropImgAlt": "Terrain de sports scolaires",
+        "title": "Formulaire de demande d'acc\u00e9l\u00e9rateur de parrainage universitaire / coll\u00e9gial / lyc\u00e9e",
+        "fields": {
+            "email": {
+                "label": "E-mail"
+            },
+            "customerStatus": {
+                "label": "\u00cates-vous un client nouveau ou existant?",
+                "options": [
+                    "je suis un nouveau client",
+                    "Je suis un client existant"
+                ]
+            },
+            "profileName": {
+                "label": "Nom de profil",
+                "sublabels": [
+                    "Merci de saisir votre pr\u00e9nom et votre nom"
+                ]
+            },
+            "teamName": {
+                "label": "Quel est le nom de l'\u00e9cole ou le nom de l'\u00e9quipe que vous commencez?"
+            },
+            "startupStage": {
+                "label": "Quelle est la sc\u00e8ne de votre \u00e9quipe ou de votre org de club de d\u00e9marrage?(Expliquer en d\u00e9tail)",
+                "sublabels": [
+                    "Choisissez la taille et le nombre par couleur"
+                ]
+            },
+            "employeeCount": {
+                "label": "Nombre d'employ\u00e9s?"
+            },
+            "atheleticPlayers": {
+                "label": "Nombre de joueurs sportifs d'\u00e9quipe?",
+                "sublabels": [
+                    "(Montant de pr\u00e9f\u00e9rence minimum 7 - 14)"
+                ]
+            },
+            "socialMediaHandles": {
+                "label": "Club Social Media Gandles"
+            },
+            "fundingAmnt": {
+                "label": "Montant de financement de d\u00e9marrage ou prestations de parrainage?",
+                "options": [
+                    "Approbation",
+                    "5 000,00 $ - 10 000,00 $",
+                    "20 000,00 $",
+                    "50 000 $",
+                    "100 000 $ - 500 000,00 $",
+                    "1 000 000 $ +",
+                    "Je ne sais pas encore"
+                ]
+            },
+            "preferredContact": {
+                "label": "M\u00e9thode de contact pr\u00e9f\u00e9r\u00e9e",
+                "options": [
+                    "T\u00e9l\u00e9phoner",
+                    "E-mail",
+                    "Linkedin.com"
+                ]
+            },
+            "teamLogo": {
+                "label": "Le logo de votre \u00e9quipe?"
+            },
+            "pitchDeck": {
+                "label": "Ponts universitaires / coll\u00e8ges / lyc\u00e9s, liens de pitch ou pr\u00e9sentation?"
+            }
+        },
+        "submit": "Soumettre"
+    }
+}

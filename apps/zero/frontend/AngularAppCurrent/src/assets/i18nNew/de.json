@@ -1,0 +1,72 @@
+{
+    "collegiateSignupMain": {
+        "backdropImgAlt": "Schulsportfeld",
+        "title": "Antragsformular f\u00fcr Universit\u00e4t/Collegiate/High School Sponsoring Accelerator",
+        "fields": {
+            "email": {
+                "label": "Email"
+            },
+            "customerStatus": {
+                "label": "Sind Sie ein neuer oder bestehender Kunde?",
+                "options": [
+                    "Ich bin ein neuer Kunde",
+                    "Ich bin ein vorhandener Kunde"
+                ]
+            },
+            "profileName": {
+                "label": "Profilname",
+                "sublabels": [
+                    "Bitte Vor-und Nachnamen eintragen"
+                ]
+            },
+            "teamName": {
+                "label": "Wie hei\u00dft die Schule oder der Name des Teams, das Sie anfangen?"
+            },
+            "startupStage": {
+                "label": "Wie hoch ist die B\u00fchne Ihres Startup -Club -Teams oder Ihrer Org?(Erkl\u00e4re im Detail)",
+                "sublabels": [
+                    "W\u00e4hlen Sie Gr\u00f6\u00dfe und Anzahl pro Farbe"
+                ]
+            },
+            "employeeCount": {
+                "label": "Anzahl der Mitarbeiter?"
+            },
+            "atheleticPlayers": {
+                "label": "Anzahl der sportlichen Spieler?",
+                "sublabels": [
+                    "(Minimum bevorzugte Menge 7 - 14)"
+                ]
+            },
+            "socialMediaHandles": {
+                "label": "Club Social Media -Handles"
+            },
+            "fundingAmnt": {
+                "label": "Start -up -Finanzierungsbetrag oder Sponsoring -Leistungen?",
+                "options": [
+                    "Billigung",
+                    "5.000,00 USD - 10.000,00 USD",
+                    "20.000 US -Dollar",
+                    "50.000 US -Dollar",
+                    "100.000,00 $ - 500.000,00 USD",
+                    "$ 1.000.000,00+",
+                    "Ich wei\u00df noch nicht"
+                ]
+            },
+            "preferredContact": {
+                "label": "Bevorzugte Kontaktmethode",
+                "options": [
+                    "Telefon",
+                    "Email",
+                    "Linkedin.com"
+                ]
+            },
+            "teamLogo": {
+                "label": "Ihr Teamlogo?"
+            },
+            "pitchDeck": {
+                "label": "Decks der Universit\u00e4t/College/High School, Pitch -Links oder Pr\u00e4sentation?"
+            }
+        },
+        "submit": "Einreichen"
+    }
+}

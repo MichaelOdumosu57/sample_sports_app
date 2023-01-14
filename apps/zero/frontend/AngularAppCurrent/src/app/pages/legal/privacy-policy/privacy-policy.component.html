@@ -1,0 +1,10 @@
+<div [class]="classPrefix('MainPod')">
+  <h1 >{{"privacyPolicy.title" | translate}}</h1>
+  <ng-container *ngFor="let section of sections">
+    <h3 [class]="classPrefix('MainText0')" *ngIf="section.type === 'section'">{{$any(section.text) | translate}}</h3>
+    <p [class]="classPrefix('MainText1')" *ngIf="section.type === 'text'">{{ $any(section.text) | translate}}</p>
+    <ul [class]="classPrefix('MainText1')" *ngIf="section.type === 'list'">
+      <li [class]="classPrefix('MainText2')" *ngFor="let text of section.text">{{text | translate}}</li>
+    </ul>
+  </ng-container>
+</div>

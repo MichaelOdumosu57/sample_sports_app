@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="793.7" height="793.7" version="1.1" viewBox="0 0 210 210" xmlns="http://www.w3.org/2000/svg">
+ <g transform="translate(0,-87)" fill="#1681c5">
+  <path transform="matrix(.26458 0 0 .26458 0 87)" d="m25 18.701v223.95l223.95-223.95h-223.95zm750 526.05l-223.95 223.95h223.95v-223.95z" style="paint-order:fill markers stroke"/>
+  <g transform="matrix(24.932 0 0 24.932 892.07 -7285.5)">
+   <path d="m-32.827 298.04q0 0.28014-0.19394 0.47408-0.19035 0.19035-0.47049 0.19035-0.27655 0-0.47049-0.19394-0.19035-0.19394-0.19035-0.47049 0-0.27654 0.19035-0.46689 0.19394-0.19394 0.47049-0.19394t0.47049 0.19394q0.19394 0.19035 0.19394 0.46689z" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal"/>
+   <path d="m-32.903 302.39h-1.178v-3.3329h1.178z" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal"/>
+   <path d="m-28.919 302.39h-1.178v-1.688q0-0.44176-0.10056-0.58542-0.14725-0.2119-0.44176-0.2119-0.26936 0-0.45253 0.18317-0.16521 0.16521-0.16521 0.51718v1.785h-1.178v-3.3329h1.178v0.42021q0.20472-0.23704 0.37711-0.33401 0.28014-0.15803 0.70034-0.15803 0.53873 0 0.87633 0.29091 0.38429 0.33042 0.38429 0.99126z" style="font-feature-settings:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal"/>
+  </g>
+ </g>
+</svg>

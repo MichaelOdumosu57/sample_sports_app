@@ -1,0 +1,36 @@
+<div [class]="classPrefix('MainPod')">
+  <section [class]="classPrefix('Pod0')">
+
+    <!-- <img [src]=logoImg.src [alt]=logoImg.alt (click)="logoImg.click($event)" /> -->
+    <div [class]="classPrefix('Pod0Item0')">
+      <img  [class]="classPrefix('Pod0Img0')" [src]=avatarImg.src [alt]=avatarImg.alt />
+      <ng-container *ngIf="defaultService.profileBtn.isPresent">
+        <h2>{{this.accountService.currentProfile.userName}}</h2>
+        <button (click)="defaultService.profileBtn.click($event)" [attr.aria-label]="defaultService.profileBtn.text | translate" [class]="classPrefix('Pod0Btn0')"  >
+          <label>{{defaultService.profileBtn.text | translate}}</label>
+        </button>
+      </ng-container>
+      <ng-container *ngIf="defaultService.loginBtn.isPresent" >
+      <button (click)="defaultService.loginBtn.click($event)" [attr.aria-label]="defaultService.loginBtn.text | translate" [class]="classPrefix('Pod0Btn0')"  >
+        <label>{{defaultService.loginBtn.text | translate}}</label>
+      </button>
+      </ng-container>
+    </div>
+  </section>
+  <section [class]="classPrefix('Pod1')">
+    <nav [class]="classPrefix('Pod1Item0')">
+      <button (click)="route.click($event)"  [class]="classPrefix('Pod1Btn0')" *ngFor="let route of routes">
+        <i [class]=" ' fa-solid ' + route.iconClass"></i>
+        <label>{{ route.text | translate}}</label>
+      </button>
+    </nav>
+
+    <nav [class]="classPrefix('Pod1Item0')">
+      <button (click)="route.click($event)"  [class]="classPrefix('Pod1Btn0')" *ngFor="let route of sportRoutes">
+        <i [class]=" ' fa-solid ' + route.iconClass"></i>
+        <label>{{ route.text | translate}}</label>
+      </button>
+    </nav>
+
+  </section>
+</div>

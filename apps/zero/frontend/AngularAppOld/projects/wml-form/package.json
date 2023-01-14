@@ -1,0 +1,14 @@
+{
+  "name": "wml-form",
+  "version": "0.0.1",
+  "peerDependencies": {
+    "@angular/common": "^14.2.0",
+    "@angular/core": "^14.2.0"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  },
+  "devDependencies": {
+    "@windmillcode/angular-templates": "^0.0.29"
+  }
+}

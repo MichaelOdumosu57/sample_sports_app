@@ -1,0 +1,26 @@
+<div [class]="classPrefix('MainPod')">
+  <div [class]="classPrefix('Pod0')">
+    <aside [class]="classPrefix('Pod0Item0')">
+      <default-aside></default-aside>
+    </aside>
+    <main [class]="classPrefix('Pod0Item1')">
+      <default-nav [class]="classPrefix('Pod0Item2')"></default-nav>
+      <div [class]="classPrefix('Pod0Item3')">
+        <div [class]="classPrefix('Pod0Item4')">
+          <div [class]="classPrefix('Pod0Item5')">
+            <div [class]="classPrefix('Pod0Item6')">
+            <router-outlet>
+              </router-outlet>
+            </div>
+          </div>
+
+          <div [class]="classPrefix('Pod0Item7')"></div>
+          <!-- <default-footer [class]="classPrefix('Pod0Item7')"> </default-footer> -->
+        </div>
+
+      </div>
+    </main>
+
+  </div>
+
+</div>
