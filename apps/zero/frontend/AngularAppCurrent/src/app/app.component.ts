@@ -3,7 +3,7 @@ import { AfterViewInit, ChangeDetectorRef, Component, HostBinding, ViewContainer
 import { Router } from '@angular/router';
 
 // rxjs
-import { forkJoin, merge, pipe, Subject, takeUntil, tap } from 'rxjs';
+import { merge, Subject, takeUntil, tap } from 'rxjs';
 
 // services
 import { NavService } from '@shared/services/nav/nav.service';

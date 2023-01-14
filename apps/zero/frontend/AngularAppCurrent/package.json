@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "startPowershell": "npx ng serve --ssl=true --ssl-key=$env:WML_CERT_KEY0 --ssl-cert=$env:WML_CERT0",
-    "build": "npm run lint;ng build -c azureSWAProd",
+    "build": "npm run lint && ng build -c azureSWAProd",
     "deploy": "npx swa deploy ./dist/azureSWA",
     "watch": "ng build --watch --configuration development",
     "test": "ng test --code-coverage",

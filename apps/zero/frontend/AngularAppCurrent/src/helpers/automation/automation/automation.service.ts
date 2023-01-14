@@ -11,7 +11,7 @@ import { UtilityService } from '@core/utility/utility.service';
 
 // misc
 import { faker } from '@faker-js/faker';
-import { GetEventsSuccessAPIResponseBody, GetEventsSuccessUIBody } from '@shared/services/event/event.service';
+import { GetEventsSuccessAPIResponseBody } from '@shared/services/event/event.service';
 
 
 // rxjs
