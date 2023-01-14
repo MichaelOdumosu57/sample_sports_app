@@ -1,0 +1,72 @@
+{
+    "collegiateSignupMain": {
+        "backdropImgAlt": "Campo deportivo escolar",
+        "title": "Formulario de solicitud de acelerador de la universidad/colegio/escuela secundaria",
+        "fields": {
+            "email": {
+                "label": "Correo electr\u00f3nico"
+            },
+            "customerStatus": {
+                "label": "\u00bfEs usted un cliente nuevo o existente?",
+                "options": [
+                    "Soy un nuevo cliente",
+                    "Soy un cliente existente"
+                ]
+            },
+            "profileName": {
+                "label": "Nombre de perfil",
+                "sublabels": [
+                    "Por favor, introduzca su nombre y apellido"
+                ]
+            },
+            "teamName": {
+                "label": "\u00bfCu\u00e1l es el nombre de la escuela o el nombre del equipo que est\u00e1 comenzando?"
+            },
+            "startupStage": {
+                "label": "\u00bfCu\u00e1l es la etapa de su equipo u organizaci\u00f3n de su club de inicio?(Explicar con detalle)",
+                "sublabels": [
+                    "Elija tama\u00f1o y n\u00famero por color"
+                ]
+            },
+            "employeeCount": {
+                "label": "\u00bfN\u00famero de empleados?"
+            },
+            "atheleticPlayers": {
+                "label": "\u00bfN\u00famero de jugadores atl\u00e9ticos del equipo?",
+                "sublabels": [
+                    "(Cantidad m\u00ednima preferida 7 - 14)"
+                ]
+            },
+            "socialMediaHandles": {
+                "label": "Handles de las redes sociales del club"
+            },
+            "fundingAmnt": {
+                "label": "\u00bfMonto de financiaci\u00f3n de inicio o beneficios de patrocinio?",
+                "options": [
+                    "Aprobaci\u00f3n",
+                    "$ 5,000.00 - $ 10,000.00",
+                    "$ 20,000.00",
+                    "$ 50,000.00",
+                    "$ 100,000.00 - $ 500,000.00",
+                    "$ 1,000,000.00+",
+                    "No s\u00e9 todav\u00eda"
+                ]
+            },
+            "preferredContact": {
+                "label": "M\u00e9todo de Contacto Preferido",
+                "options": [
+                    "Tel\u00e9fono",
+                    "Correo electr\u00f3nico",
+                    "Linkedin.com"
+                ]
+            },
+            "teamLogo": {
+                "label": "El logotipo de tu equipo?"
+            },
+            "pitchDeck": {
+                "label": "Universidad/universidad/mazos de secundaria, enlaces de tono o presentaci\u00f3n?"
+            }
+        },
+        "submit": "Enviar"
+    }
+}

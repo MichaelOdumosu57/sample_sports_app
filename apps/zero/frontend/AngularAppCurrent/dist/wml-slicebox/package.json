@@ -1,0 +1,34 @@
+{
+  "name": "@windmillcode/wml-slicebox",
+  "version": "1.0.1",
+  "peerDependencies": {
+    "@angular/common": ">15.0.0",
+    "@angular/core": ">15.0.0",
+    "rxjs": "~7.5.0",
+    "@windmillcode/wml-components-base": ">=0.2.3"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  },
+  "homepage": "https://github.com/WindMillCode/angular-templates/tree/master/angular-work/projects",
+  "sideEffects": false,
+  "module": "fesm2015/windmillcode-wml-slicebox.mjs",
+  "es2020": "fesm2020/windmillcode-wml-slicebox.mjs",
+  "esm2020": "esm2020/windmillcode-wml-slicebox.mjs",
+  "fesm2020": "fesm2020/windmillcode-wml-slicebox.mjs",
+  "fesm2015": "fesm2015/windmillcode-wml-slicebox.mjs",
+  "typings": "index.d.ts",
+  "exports": {
+    "./package.json": {
+      "default": "./package.json"
+    },
+    ".": {
+      "types": "./index.d.ts",
+      "esm2020": "./esm2020/windmillcode-wml-slicebox.mjs",
+      "es2020": "./fesm2020/windmillcode-wml-slicebox.mjs",
+      "es2015": "./fesm2015/windmillcode-wml-slicebox.mjs",
+      "node": "./fesm2015/windmillcode-wml-slicebox.mjs",
+      "default": "./fesm2020/windmillcode-wml-slicebox.mjs"
+    }
+  }
+}
