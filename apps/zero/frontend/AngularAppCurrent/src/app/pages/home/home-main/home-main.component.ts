@@ -48,15 +48,15 @@ export class HomeMainComponent  {
   .fill(null)
   .map((nullVal, index0) => {
     let methods = Object.entries(faker.image)
-    .filter((entry)=>{
+    .filter((entry,index1)=>{
       let [key,val]= entry
       return val.constructor.name === "Function"
     })
-    .map((entry)=>{
-      return entry[1]
+    .filter(([key,val])=>{
+      return !["nightlife","fashion","avatar","image","imageUrl","city","sports","dataUri"].includes(key)
     })
-    let src =this.utilService.selectRandomOptionFromArray(methods)()
-
+    let makeFakeImage =this.utilService.selectRandomOptionFromArray(methods)
+    let src = makeFakeImage[1]()
 
     let img = new WmlSliceboxImg({
       src,
@@ -73,12 +73,13 @@ export class HomeMainComponent  {
   sliceBoxParams = new WmlSliceboxParams({
     images: this.images,
     orientation:"v",
+
     // nextRotationDegree:"360deg",
     disperseFactor:80,
     disperseSpeed:4000,
     speed:1500,
     sequentialFactor:150,
-    autoplay:true,
+    autoplay:false,
   });
 
   moveToNextSlide =()=>{
